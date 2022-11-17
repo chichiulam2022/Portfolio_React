@@ -40,4 +40,20 @@ English Version:<br>
 Version française:<br>
 <img width="650" alt="Screenshot 2022-11-17 at 5 55 07 PM" src="https://user-images.githubusercontent.com/108379616/202577634-5c5691cb-2dbe-4616-871d-4a1b8acc3b98.png">
 
+## Technologies
+Besides Create React App, this project was created with the following NPMs, here are the examples:
+* `react-bootstrap` - for building the app more responsive and quicker.
+* `react-multi-carousel` - for creating carousels. 
+* `animate.css` - for creating some fun animations.
+* `i18next` - for translating one language from another alongwith some JSON files I built.
 
+## Licence
+This project is licensed under the MIT licence. 
+
+![GitHub license](https://img.shields.io/badge/license-MIT-blueviolet.svg)
+
+## Contributors
+​Contributors: <b>Chi Chiu Lam</b>
+
+## Questions
+If you have any questions about the repo, feel free to find me on my GitHub account <b><i>chichiulam2022</b></i> or email me at lamcc90@gmail.com.
