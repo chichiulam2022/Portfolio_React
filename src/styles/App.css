@@ -16,7 +16,7 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: #150010 !important;
+  background: linear-gradient(to right, #41295a, #2f0743) !important;
   color: #fff !important;
   font-family: 'Centra', sans-serif !important;
 }

@@ -2,8 +2,6 @@ import React from 'react'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import '../styles/Skills.css'
-import 'animate.css'
-import TrackVisibility from 'react-on-screen';
 import {useTranslation} from 'react-i18next'
 
 import JS from '../assets/images/js.svg'
@@ -45,13 +43,9 @@ function Skills() {
         <div className="container">
             <div className="row">
                 <div className="col-12">
-                <TrackVisibility>
-                {({ isVisible }) =>
-                <div className={isVisible ? "animate__animated animate__fadeInUp" : ''}>
                     <div className="skill-bx wow zoomIn">
                         <h2>{t('title')}</h2>
                         <p>{t('description')}</p>
-
                         <Carousel responsive={responsive} infinite={false}  arrows={false}  showDots={true} swipeable={true} draggable={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={JS} alt="javascript" />
@@ -91,8 +85,7 @@ function Skills() {
                             </div>
                         </Carousel>
                     </div>
-                </div>}
-                </TrackVisibility>    
+                
                 </div>
             </div>
         </div>

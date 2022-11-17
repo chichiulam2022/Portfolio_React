@@ -11,7 +11,6 @@ import nomadTravels from '../assets/images/nomad_travels.png'
 import jokes from '../assets/images/jokes.png'
 import pokemon from '../assets/images/pokemon.png'
 import ProjectCard from './ProjectCard';
-import TrackVisibility from 'react-on-screen';
 import { useTranslation } from "react-i18next";
 
 
@@ -90,11 +89,7 @@ function Projects() {
                 <div>
                   <h2>{t('title')}</h2>
                   <p>{t('text1')}</p><br/>
-                  <p><i><b>{t('italic')}</b></i> {t('text2')}</p>
-
-              <TrackVisibility>
-                  {({ isVisible }) =>
-                  <div className={isVisible ? "animate__animated animate__fadeInRight animate__slow" : ''}>
+                  <p><i><b>{t('italic')}</b></i> {t('text2')}</p>                 
                     <Tab.Container id="projects-tabs" defaultActiveKey="first">
                           <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                             <Nav.Item>
@@ -149,14 +144,12 @@ function Projects() {
                               </Row>
                             </Tab.Pane>
                           </Tab.Content>
-                        </Tab.Container>
-                      </div>}
-                </TrackVisibility>
-              </div>
-            </Col>
-          </Row>
-        </Container>
-    </section>
+                        </Tab.Container>       
+                      </div>
+                    </Col>
+                  </Row>
+                </Container>
+              </section>
   )
 }
 
