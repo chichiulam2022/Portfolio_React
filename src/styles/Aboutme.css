@@ -1,9 +1,9 @@
-.skill {
+.aboutme {
     padding: 0 0 50px 0;
     position: relative;
 }
 
-.skill-bx {
+.aboutme-bx {
     background: #300029;
     border-radius: 64px;
     text-align: center;
@@ -11,13 +11,13 @@
     margin-top: -60px;
 }
 
-.skill h2 {
+.aboutme h2 {
     font-size: 2.5rem;
     font-weight: 700;
     text-decoration: orange underline;
 }
 
-.skill p {
+.aboutme p {
     color: #dddddd;
     font-size: 1.2rem;
     letter-spacing: 0.8px;
@@ -25,37 +25,25 @@
     margin: 14px 0 75px 0;
 }
 
-.skill-slider {
+.aboutme img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 15px;
+}
+
+/* .aboutme-slider {
     width: 80%;
     margin: 0 auto;
     position: relative;
-}
+} */
 
-.skill-slider .item img {
+/* .aboutme-slider .item img {
     width: 50%;
     margin: 0 auto 15px auto;
-}
+} */
 
-.item img {
+/* .item img {
     max-width: 80px;
     padding: 0 5px 0 5px;
-}
-
-.react-multi-carousel-dot button {
-    display: inline-block;
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    opacity: 0.9;
-    padding: 5px 5px 5px 5px;
-    box-shadow: none;
-    transition: background .5s;
-    border-width: 2px;
-    border-style: solid;
-    border-color: rgb(72, 115, 243);
-    padding: 0;
-    margin: 0;
-    margin-right: 6px;
-    outline: 0;
-    cursor: pointer;
-}
+} */

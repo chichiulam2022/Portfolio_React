@@ -5,6 +5,7 @@ import '../styles/Skills.css'
 import 'animate.css'
 import TrackVisibility from 'react-on-screen';
 import {useTranslation} from 'react-i18next'
+
 import JS from '../assets/images/js.svg'
 import html from '../assets/images/html.svg'
 import css from '../assets/images/css.svg'
@@ -18,7 +19,6 @@ import express from '../assets/images/express.svg'
 
 const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5
     },
@@ -35,9 +35,6 @@ const responsive = {
       items: 2
     }
   };
-
-
-
 
 function Skills() {
 
@@ -99,7 +96,6 @@ function Skills() {
                 </div>
             </div>
         </div>
-        {/* <img className="background-image-left" src='' alt="good" /> */}
     </section>
   )
 }
