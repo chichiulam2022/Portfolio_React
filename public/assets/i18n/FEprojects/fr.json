@@ -1,0 +1,8 @@
+{
+    "title_movie": "Appli Ultimatemovie",
+    "title_weather": "Appli API de temps",
+    "title_trivia": "Jeu-questionnaire",
+    "description_movie": "Une appli API capable de rechercher des films par titre. On peut s'informer sur des affiches, personnages et intrigues, etc.",
+    "description_weather": "À l'aide de l'API OpenWeather pour obtenir des informations météo et des prévisions à 5 jours de toutes les villes dans le monde.",
+    "description_trivia": "Un jeu-questionnaire amusant bilingue (français et anglais) de 10 questions. Écrit en HTML, CSS et JavaScript conventionnel."
+}

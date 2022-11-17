@@ -1,0 +1,69 @@
+.skill {
+    padding: 0 0 50px 0;
+    position: relative;
+}
+
+.skill-bx {
+    background: #260606;
+    border-radius: 64px;
+    text-align: center;
+    padding: 60px 50px;
+    margin-top: -60px;
+}
+
+.skill h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-decoration: orange underline;
+}
+
+.skill p {
+    color: #dddddd;
+    font-size: 1.2rem;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 14px 0 75px 0;
+}
+
+.skill-slider {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.skill-slider .item img {
+    width: 50%;
+    margin: 0 auto 15px auto;
+}
+
+/* .background-image-left {
+    top: 28%;
+    position: absolute;
+    bottom: 0;
+    width: 40%;
+    z-index: -4;
+} */
+
+.item img {
+    max-width: 80px;
+    padding: 0 5px 0 5px;
+}
+
+.react-multi-carousel-dot button {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    opacity: 0.9;
+    padding: 5px 5px 5px 5px;
+    box-shadow: none;
+    transition: background .5s;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(72, 115, 243);
+    padding: 0;
+    margin: 0;
+    margin-right: 6px;
+    outline: 0;
+    cursor: pointer;
+}

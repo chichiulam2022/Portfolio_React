@@ -1,0 +1,8 @@
+{
+    "title_movie": "Ultimatemovie App",
+    "title_weather": "Weather API App",
+    "title_trivia": "Trivia Quiz",
+    "description_movie": "An API app that allows to search movies by titles. Users can view movie posters, characters, plots, and years, etc.",
+    "description_weather": "Using OpenWeather API to fetch weather information and 5-day forecast of cities around the world.",
+    "description_trivia": "A fun bilingual (English and French) trivia quiz with 10 questions. Written with HTML, CSS, and pure (vanilla) JavaScript."
+}

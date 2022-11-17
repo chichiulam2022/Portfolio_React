@@ -1,0 +1,94 @@
+.hero {
+    margin-top: 0;
+    padding: 170px 0 100px 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(13, 0, 0, 0.5)), url('../assets/images/space.jpg');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero .tagline {
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    padding: 8px 10px;
+    background: linear-gradient(90.21deg, rgba(124, 17, 81, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+    border-radius: 10px;
+    font-size: 1.5em;
+    margin-bottom: 16px;
+    display: inline-block;
+}
+
+.hero h1 {
+    font-size: 2.75rem;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.hero p {
+    color: #d4d4d4;
+    font-size: 1.2rem;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    width: 96%;
+}
+
+.hero button {
+    color: rgb(252, 252, 252);
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 60px;
+    letter-spacing: 0.8px;
+    display: flex;
+    align-items: center;
+    padding: 8px 10px;
+    background: linear-gradient(90.21deg, rgba(124, 17, 81, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+    border-radius: 10px;
+}
+
+
+.hero img {
+    animation: float 12s linear infinite;
+}
+
+
+@keyframes float {
+    0% {
+        transform: scale(0.5, 0.5) translateX(-400px) translateY(-300px);
+
+    }
+
+    25% {
+        transform: scale(0.8, 0.8) translateX(-350px) translateY(-200px);
+    }
+
+    45% {
+        transform: scale(0.9, 0.9) translateX(-320px) translateY(-150px);
+    }
+
+    65% {
+        transform: translateY(-20px);
+    }
+
+    75% {
+        transform: scale(0.9, 0.9) translateX(300px) translateY(150px);
+    }
+
+    85% {
+        transform: scale(0.8, 0.8) translateX(-300px) translateY(-150px);
+    }
+
+    95% {
+        transform: scale(0.8, 0.8) translateX(-450px) translateY(-240px);
+    }
+
+    100% {
+        transform: scale(0.5, 0.5) translateX(-400px) translateY(-300px);
+    }
+}
+
+/* .txt-rotate>.wrap {
+    border-right: 0.08em solid #666;
+} */
