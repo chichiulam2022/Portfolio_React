@@ -13,7 +13,6 @@ import pokemon from '../assets/images/pokemon.png'
 import ProjectCard from './ProjectCard';
 import { useTranslation } from "react-i18next";
 
-
 function Projects() {
 
   const {t} = useTranslation(['projects', 'FEprojects', 'tabs'])

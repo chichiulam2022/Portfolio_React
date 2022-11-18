@@ -1,7 +1,8 @@
 {
     "welcome": "Bienvenue sur mon portfolio",
-    "intro": "Moi, c'est Chi Chiu LAM.",
-    "pron": "Je",
+    "pronoun": "Moi, c'est",
+    "name": "Chi Chiu Lam",
+    "single_pronoun": "Je",
     "animatedText1": "Code.",
     "animatedText2": "Crée.",
     "animatedText3": "Contribue.",

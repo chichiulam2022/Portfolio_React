@@ -22,7 +22,8 @@ function Hero() {
 
                 <span className="tagline">{t('welcome')} 😊</span>
 
-                <h1>{t('intro')}<br/>{t('pron')} <span style={{ color: 'red', fontWeight: 'bold' }}>
+                <h1>{t('pronoun')} <span style={{color: "orange"}}>{t('name')}</span>.<br/>
+                {t('single_pronoun')} <span style={{ color: '#cd0033', fontWeight: 'bold' }}>
                 <Typewriter
                 words={[t('animatedText1'), t('animatedText2'), t('animatedText3')]} 
                 loop={false}
@@ -33,8 +34,8 @@ function Hero() {
                 delaySpeed={1100}
                 />
                 </span>
-                   
                 </h1>
+                <br/>
                   <p>{t('detailText1')} <br/><br/>
                   {t('detailText2')}</p>
                  

@@ -21,7 +21,7 @@ const {t} = useTranslation(['skills'])
                 </div>
             </div>
         </div>
-    </section>
+        </section>
     </div>
   )
 }
