@@ -18,7 +18,7 @@ This app is a great opportunity to showcase my current and past projects through
 * [Demo](#demo)
 * [Technologies](#technologies)
 * [Licence](#licence)
-* [Contributors](#contributors)
+* [Contributor](#contributor)
 * [Questions](#questions)
 
 ## Installation
@@ -47,15 +47,15 @@ Besides Create React App, this project was created with the following NPMs, here
 * `react-bootstrap` - for building the app more responsive and quicker.
 * `react-multi-carousel` - for creating carousels. 
 * `animate.css` - for creating some fun animations.
-* `i18next` - for translating one language from another alongwith some JSON files I built.
+* `i18next` - for translating one language into another alongwith some JSON files I built.
 
 ## Licence
 This project is licensed under the MIT licence. 
 
 ![GitHub license](https://img.shields.io/badge/license-MIT-blueviolet.svg)
 
-## Contributors
-​Contributors: <b>Chi Chiu Lam</b>
+## Contributor
+​Contributor: <b>Chi Chiu Lam</b>
 
 ## Questions
 If you have any questions about the repo, feel free to find me on my GitHub account <b><i>chichiulam2022</b></i> or email me at lamcc90@gmail.com.
