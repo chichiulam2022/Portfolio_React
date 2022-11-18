@@ -1,7 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import astronaut from '../assets/images/astronaut.png'
 import '../styles/Contactme.css'
-import TrackVisibility from 'react-on-screen';
 import {useTranslation} from 'react-i18next'
 
 function Contactme() {
@@ -12,11 +11,7 @@ const {t} = useTranslation(['contactme'])
       <Container>
         <Row className="align-items-center">
           <Col size={12} md={6}>
-            <TrackVisibility>
-              {({ isVisible }) =>
-                <img className={isVisible ? "animate__animated animate__bounceInDown animate__slow" : ""} src={astronaut} alt="Contact Me"/>
-              }
-            </TrackVisibility>
+                <img src={astronaut} alt="Contact Me"/>
           </Col>
 
           <Col size={12} md={6}>
