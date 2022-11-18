@@ -98,7 +98,7 @@ function Projects() {
                               <Nav.Link eventKey="second">{t('title2', { ns: 'tabs' })}</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                              <Nav.Link eventKey="third">{t('title2', { ns: 'tabs' })}</Nav.Link>
+                              <Nav.Link eventKey="third">{t('title3', { ns: 'tabs' })}</Nav.Link>
                             </Nav.Item>
                           </Nav>
                           <Tab.Content id="slideInUp">
