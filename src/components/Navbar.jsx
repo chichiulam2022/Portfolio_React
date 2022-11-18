@@ -49,43 +49,40 @@ const NavBar = () => {
   return (
       <Navbar expand="md" className={ scrolled ? "scrolled" : ""}>
           <Container>
-          <Navbar.Brand className='logo' href="/">
-            <h1>Chi Chiu Lam</h1>
-          </Navbar.Brand>
+              <Navbar.Brand className='logo' href="/">
+                <h1>Chi Chiu Lam</h1>
+              </Navbar.Brand>
 
-          <Navbar.Toggle aria-controls="basic-navbar-nav">
-            <span className="navbar-toggler-icon"></span>
-          </Navbar.Toggle>
+              <Navbar.Toggle aria-controls="basic-navbar-nav">
+                <span className="navbar-toggler-icon"></span>
+              </Navbar.Toggle>
 
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ms-auto">
-              <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}><p>{t('home')}</p></Nav.Link>
-              <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}><p>{t('skills')}</p></Nav.Link>
-              <Nav.Link href="#project" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}><p>{t('projects')}</p></Nav.Link>
-              <Nav.Link href="#aboutme" className={activeLink === 'aboutme' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('aboutme')}><p>{t('aboutme')}</p></Nav.Link>
-            
-              <Form value={localStorage.getItem("i18nextLng")}
-                    onChange={handleLanguageChange} >
-                <Form.Switch 
-                  type="switch"
-                  id="custom-switch"
-                  label="English 🇨🇦"
-                  value='en'
-                  checked={lang === 'en'}
-                  onChange = {handleLangChange}
-                 
-
-                />
-                <Form.Switch 
-                  type="switch"
-                  label="Français 🇨🇦"
-                  id="disabled-custom-switch"
-                  value='fr'
-                  checked={lang === 'fr'}
-                  onChange = {handleLangChange}
-                  
-                />
-              </Form>
+                  <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className="ms-auto">
+                      <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}><p>{t('home')}</p></Nav.Link>
+                      <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}><p>{t('skills')}</p></Nav.Link>
+                      <Nav.Link href="#project" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}><p>{t('projects')}</p></Nav.Link>
+                      <Nav.Link href="#aboutme" className={activeLink === 'aboutme' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('aboutme')}><p>{t('aboutme')}</p></Nav.Link>
+                    
+                      <Form value={localStorage.getItem("i18nextLng")}
+                            onChange={handleLanguageChange} >
+                        <Form.Switch 
+                          type="switch"
+                          id="custom-switch"
+                          label="English 🇨🇦"
+                          value='en'
+                          checked={lang === 'en'}
+                          onChange = {handleLangChange}
+                        />
+                        <Form.Switch 
+                          type="switch"
+                          label="Français 🇨🇦"
+                          id="disabled-custom-switch"
+                          value='fr'
+                          checked={lang === 'fr'}
+                          onChange = {handleLangChange} 
+                        />
+                      </Form>
           </Nav>
 
             <span className="navbar-text">
