@@ -10,6 +10,9 @@ import noteTaker from '../assets/images/note_taker.png'
 import nomadTravels from '../assets/images/nomad_travels.png'
 import jokes from '../assets/images/jokes.png'
 import pokemon from '../assets/images/pokemon.png'
+import frontCode from '../assets/images/front-code.png'
+import dataBases from '../assets/images/databases.png'
+import fullStack from '../assets/images/fullstack.png'
 import ProjectCard from './ProjectCard';
 import { useTranslation } from "react-i18next";
 
@@ -92,13 +95,13 @@ function Projects() {
                     <Tab.Container id="projects-tabs" defaultActiveKey="first">
                           <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                             <Nav.Item>
-                              <Nav.Link eventKey="first" id='tab1'>{t('title1', { ns: 'tabs' })}</Nav.Link>
+                              <Nav.Link eventKey="first" id='tab1'>{t('title1', { ns: 'tabs' })}<br/><img className='code-icon'src={frontCode} alt="frontend"/></Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                              <Nav.Link eventKey="second">{t('title2', { ns: 'tabs' })}</Nav.Link>
+                              <Nav.Link eventKey="second">{t('title2', { ns: 'tabs' })}<br/><img className='code-icon'src={dataBases} alt="frontend"/></Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                              <Nav.Link eventKey="third">{t('title3', { ns: 'tabs' })}</Nav.Link>
+                              <Nav.Link eventKey="third">{t('title3', { ns: 'tabs' })}<br/><img className='code-icon'src={fullStack} alt="frontend"/></Nav.Link>
                             </Nav.Item>
                           </Nav>
                           <Tab.Content id="slideInUp">

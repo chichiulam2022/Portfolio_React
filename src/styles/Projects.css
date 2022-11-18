@@ -27,7 +27,7 @@
     width: 72%;
     margin: 0 auto;
     border-radius: 10px;
-    background-color: rgba(4, 181, 128, 0.1);
+    background-color: rgb(48, 0, 151);
     overflow: hidden;
 }
 
@@ -91,7 +91,6 @@
 
 .proj-img-box::before {
     content: "";
-    /* background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%); */
     background-image: linear-gradient(to right top, #020e21, #001c2c, #002729, #00301a, #263602);
     opacity: 0.95;
     position: absolute;
@@ -145,4 +144,9 @@
     width: 35%;
     right: 0;
     z-index: -4;
+}
+
+.project .code-icon {
+    max-width: 1.5rem;
+    margin-top: 5px;
 }

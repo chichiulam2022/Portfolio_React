@@ -17,11 +17,12 @@
 .aboutme h2 {
     font-size: 1.9rem;
     font-weight: 700;
-    text-decoration: orange underline;
+    text-decoration: rgb(255, 179, 14) underline;
+    color: rgb(255, 210, 125);
 }
 
 .aboutme p {
-    color: #dddddd;
+    color: #ffffff;
     font-size: 1.2rem;
     letter-spacing: 0.8px;
     line-height: 1.5em;
