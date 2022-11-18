@@ -83,7 +83,7 @@ const NavBar = () => {
                           onChange = {handleLangChange} 
                         />
                       </Form>
-          </Nav>
+                    </Nav>
 
             <span className="navbar-text">
 
