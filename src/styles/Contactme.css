@@ -8,7 +8,7 @@
 
 .contact img {
     width: 92%;
-    animation: float 20s linear infinite;
+    animation: flying 8s linear infinite;
 }
 
 .contact h3 {
@@ -74,49 +74,26 @@
     width: 100%;
 }
 
-@keyframes float {
+@keyframes flying {
 
-    /* 0% {
-        transform: translateX(0px) translateY(-300px);
-    }
-
-    20% {
-        transform: translateX(100px) translateY(-200px);
-    }
-
-    30% {
-        transform: translateX(150px) translateY(-160px);
-    }
-
-    40% {
-        transform: translateX(100px) translateY(100px);
-    }
-
-    50% {
-        transform: translateX(-10px) translateY(-100px);
-    }
-
-    60% {
-        transform: translateX(-100px) translateY(-240px);
-    } */
     0% {
         transform: translateX(0px) translateY(0px);
     }
 
     50% {
-        transform: translateX(20px) translateY(-20px);
+        transform: translateX(50px) translateY(-50px);
     }
 
     60% {
-        transform: translateX(25px) translateY(-25px);
+        transform: translateX(75px) translateY(-75px);
     }
 
     70% {
-        transform: translateX(35px) translateY(-35px);
+        transform: translateX(100px) translateY(-100px);
     }
 
     70% {
-        transform: translateX(25px) translateY(-25px);
+        transform: translateX(95px) translateY(-25px);
     }
 
     70% {
