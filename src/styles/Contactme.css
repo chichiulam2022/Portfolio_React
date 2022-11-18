@@ -1,5 +1,4 @@
 .contact {
-    /* background: linear-gradient(165deg, #15003e, #17003e, #1c023d, #22033c, #27043b, #2c053a, #2f0739, #300739); */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(13, 0, 0, 0.5)), url('../assets/images/space.jpg');
     background-position: center center;
     background-size: cover;

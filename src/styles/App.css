@@ -16,7 +16,8 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background: linear-gradient(to right, #010632, #13011d) !important;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(13, 0, 0, 0.5)), url('../assets/images/nightsky.jpg');
+  background-repeat: no-repeat;
   color: #fff !important;
   font-family: 'Centra', sans-serif !important;
 }
