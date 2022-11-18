@@ -47,7 +47,7 @@ Besides Create React App, this project was created with the following NPMs, here
 * `react-bootstrap` - for building the app more responsive and quicker.
 * `react-multi-carousel` - for creating carousels. 
 * `animate.css` - for creating some fun animations.
-* `i18next` - for translating one language from another alongwith some JSON files I built.
+* `i18next` - for translating one language into another alongwith some JSON files I built.
 
 ## Licence
 This project is licensed under the MIT licence. 
