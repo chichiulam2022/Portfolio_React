@@ -43,10 +43,10 @@
 }
 
 .aboutme a {
-    background-color: #00ffff;
+    background-color: #0096bf;
     border: none;
     border-radius: 6px;
-    color: rgb(23, 17, 17);
+    color: rgb(255, 255, 255);
     padding: 4px 10px;
     text-align: center;
     text-decoration: none;
@@ -56,5 +56,6 @@
 }
 
 .aboutme a:hover {
-    color: rgb(255, 10, 10);
+    background-color: rgb(255, 255, 255);
+    color: #0096bf;
 }

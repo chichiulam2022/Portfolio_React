@@ -4,7 +4,7 @@ import '../styles/Aboutme.css'
 import {useTranslation} from 'react-i18next'
 import profilepic from '../assets/images/profile_pic_me.jpg'
 import { FiDownload } from 'react-icons/fi';
-
+import {BsFillFileEarmarkPdfFill} from 'react-icons/bs'
 
 function Aboutme() {
 
@@ -20,7 +20,7 @@ const {t} = useTranslation(['aboutme'])
                         <div className='text-container'>
                             <p>{t('intro')}</p>
                             <p>{t('text1')}</p>
-                            <p>{t('text3')} <a href='/resume.pdf' download>{t('resume')} <FiDownload/></a> {t('engonly')}.</p>
+                            <p>{t('text3')} <a href='/resume.pdf' download>{t('resume')} <FiDownload/> <BsFillFileEarmarkPdfFill/></a> {t('engonly')}.</p>
                           
                             <img src={profilepic} alt='' className='col-4'/>
                         </div>
