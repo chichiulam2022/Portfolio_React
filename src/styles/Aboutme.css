@@ -41,3 +41,20 @@
     margin: auto;
     margin-top: 25px;
 }
+
+.aboutme a {
+    background-color: #00ffff;
+    border: none;
+    border-radius: 6px;
+    color: rgb(23, 17, 17);
+    padding: 4px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 900;
+    transition: all 0.5s;
+    font-size: 1rem;
+}
+
+.aboutme a:hover {
+    color: rgb(255, 10, 10);
+}
