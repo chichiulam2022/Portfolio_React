@@ -13,13 +13,13 @@
     padding: 8px 10px;
     background: linear-gradient(90.21deg, rgba(124, 17, 81, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
     border-radius: 10px;
-    font-size: 1.5em;
+    font-size: 1.3em;
     margin-bottom: 40px;
     display: inline-block;
 }
 
 .hero h1 {
-    font-size: 2.75rem;
+    font-size: 2rem;
     font-weight: 700;
     letter-spacing: 0.8px;
     margin-bottom: 20px;
@@ -34,19 +34,6 @@
     width: 96%;
     font-weight: bold;
     text-shadow: 1px 1px 2px rgb(94, 92, 92);
-}
-
-.hero button {
-    color: rgb(252, 252, 252);
-    font-weight: 700;
-    font-size: 20px;
-    margin-top: 60px;
-    letter-spacing: 0.8px;
-    display: flex;
-    align-items: center;
-    padding: 8px 10px;
-    background: linear-gradient(90.21deg, rgba(124, 17, 81, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
-    border-radius: 10px;
 }
 
 .namespan {
