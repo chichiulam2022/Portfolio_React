@@ -145,12 +145,14 @@ nav.navbar .navbar-toggler-icon:after {
 }
 
 .form-check-input:checked {
-    background-color: rgb(26, 254, 5) !important;
-    border-color: rgb(26, 254, 5) !important;
+    /* background-color: rgb(26, 254, 5) !important; */
+    /* background-color: rgb(255, 124, 1) !important; */
+    background-color: #cd0033 !important;
+    border-color: #cd0033 !important;
 }
 
 .form-check-label {
-    color: rgb(64, 230, 249);
+    color: #ff2f63;
     font-weight: 900;
 }
 
