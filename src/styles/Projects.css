@@ -1,7 +1,9 @@
 .project {
     padding: 80px 0;
     position: relative;
-    background: linear-gradient(165deg, #15003e, #17003e, #1c023d, #22033c, #27043b, #2c053a, #2f0739, #300739);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/images/nightsky.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .project h2 {

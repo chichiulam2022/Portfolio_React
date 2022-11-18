@@ -22,24 +22,12 @@ nav.navbar a.navbar-brand {
     width: 10%;
 }
 
-/* nav.navbar .navbar-nav .nav-link.navbar-link,
-#nav-dropdown {
-    font-weight: bold;
-    color: rgb(6, 255, 23) !important;
-    letter-spacing: 0.8px;
-    padding: 0 14px;
-    font-size: 1em;
-    transition: all 0.5s;
-} */
-
-
-/* dont delete!!! */
 nav.navbar .navbar-nav .nav-link.navbar-link,
 .navbar-light .navbar-nav .nav-link {
     font-weight: bold;
     color: rgb(26, 254, 5) !important;
     letter-spacing: 0.8px;
-    padding: 0 14px;
+    padding: 9px 12px;
     font-size: 1em;
     transition: all 0.5s;
 }
