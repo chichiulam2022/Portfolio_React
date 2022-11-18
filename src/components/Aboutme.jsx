@@ -20,7 +20,6 @@ const {t} = useTranslation(['aboutme'])
                         <div className='text-container'>
                             <p>{t('intro')}</p>
                             <p>{t('text1')}</p>
-                            <p><i>{t('text2')}</i></p>
                             <p>{t('text3')} <a href='/resume.pdf' download>{t('resume')} <FiDownload/></a> {t('engonly')}.</p>
                           
                             <img src={profilepic} alt='' className='col-4'/>
