@@ -22,7 +22,7 @@
     font-size: 1.2rem;
     letter-spacing: 0.8px;
     line-height: 1.5em;
-    margin: 14px 0 75px 0;
+    margin: 14px 0 45px 0;
 }
 
 .aboutme img {
@@ -32,18 +32,8 @@
     border-radius: 15px;
 }
 
-/* .aboutme-slider {
-    width: 80%;
-    margin: 0 auto;
-    position: relative;
-} */
-
-/* .aboutme-slider .item img {
-    width: 50%;
-    margin: 0 auto 15px auto;
-} */
-
-/* .item img {
-    max-width: 80px;
-    padding: 0 5px 0 5px;
-} */
+.text-container {
+    max-width: 900px;
+    margin: auto;
+    margin-top: 25px;
+}

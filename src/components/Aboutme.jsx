@@ -6,7 +6,7 @@ import profilepic from '../assets/images/profile_pic_me.jpg'
 
 function Aboutme() {
 
-const {t} = useTranslation(['skills'])
+const {t} = useTranslation(['aboutme'])
   return (
     <div>
       <section className="aboutme" id="aboutme">
@@ -15,8 +15,12 @@ const {t} = useTranslation(['skills'])
                 <div className="col-12">
                     <div className="aboutme-bx wow zoomIn">
                         <h2>{t('title')}</h2>
-                        <p>{t('description')}</p>
-                        <img src={profilepic} alt='' className='col-4'/>
+                        <div className='text-container'>
+                            <p>{t('intro')}</p>
+                            <p>{t('text1')}</p>
+                            <p><i>{t('text2')}</i></p>
+                            <img src={profilepic} alt='' className='col-4'/>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -9,8 +9,6 @@ import {useTranslation} from 'react-i18next'
 
 function Hero() {
   const {t} = useTranslation(['hero'])
-
-
   return (
     <section className="hero" id="home">
       <Container>
@@ -22,8 +20,8 @@ function Hero() {
 
                 <span className="tagline">{t('welcome')} 😊</span>
 
-                <h1>{t('pronoun')} <span style={{color: "orange"}}>{t('name')}</span>.<br/>
-                {t('single_pronoun')} <span style={{ color: '#cd0033', fontWeight: 'bold' }}>
+                <h1>{t('pronoun')} <span className='namespan'>{t('name')}</span>.<br/>
+                {t('single_pronoun')} <span style={{ color: '#cd0033', fontWeight: 'bold', textShadow: "2px 2px 2px" }}>
                 <Typewriter
                 words={[t('animatedText1'), t('animatedText2'), t('animatedText3')]} 
                 loop={false}
@@ -36,8 +34,7 @@ function Hero() {
                 </span>
                 </h1>
                 <br/>
-                  <p>{t('detailText1')} <br/><br/>
-                  {t('detailText2')}</p>
+                  <h5>{t('detailText')}</h5>
                  
               </div>}
             </TrackVisibility>

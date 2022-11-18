@@ -5,6 +5,8 @@ import Hero from './components/Hero'
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Aboutme from './components/Aboutme';
+import Contactme from './components/Contactme';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <Skills />
       <Projects />
       <Aboutme />
+      <Contactme />
+      <Footer />
     </Suspense>
   );
 }
