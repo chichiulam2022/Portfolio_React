@@ -2,8 +2,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import astronaut from '../assets/images/astronaut.png'
 import '../styles/Contactme.css'
 import TrackVisibility from 'react-on-screen';
+import {useTranslation} from 'react-i18next'
 
 function Contactme() {
+
+const {t} = useTranslation(['contactme'])
   return (
     <section className="contact" id="connect">
       <Container>
@@ -18,24 +21,24 @@ function Contactme() {
 
           <Col size={12} md={6}>
                 <div>
-                <h3>Contact Me:</h3>
+                <h3>{t('contact_me')}</h3>
                 <form>
                   <Row>
                     <Col size={12} sm={6} className="px-1">
-                      <input type="text" placeholder="First Name" />
+                      <input type="text" placeholder={t('first_name')} />
                     </Col>
                     <Col size={12} sm={6} className="px-1">
-                      <input type="text" placeholder="Last Name"/>
+                      <input type="text" placeholder={t('last_name')}/>
                     </Col>
                     <Col size={12} sm={6} className="px-1">
-                      <input type="email" placeholder="Email Address" />
+                      <input type="email" placeholder={t('email')} />
                     </Col>
                     <Col size={12} sm={6} className="px-1">
-                      <input type="tel" placeholder="Phone No."/>
+                      <input type="tel" placeholder={t('phone')}/>
                     </Col>
                     <Col size={12} className="px-1">
-                      <textarea rows="6" placeholder="Message"></textarea>
-                      <button type="submit">Submit</button>
+                      <textarea rows="6" placeholder={t('message')}></textarea>
+                      <button type="submit">{t('submit')}</button>
                     </Col>
                   </Row>
                 </form>
