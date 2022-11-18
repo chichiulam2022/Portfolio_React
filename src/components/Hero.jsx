@@ -41,7 +41,7 @@ function Hero() {
           </Col>
           <Col xs={12} md={6} xl={5}>
                 <div>
-                  <img src={astronaut} alt="Header Img"/>
+                  <img className="astronaut_img" src={astronaut} alt="Header Img"/>
                 </div>
           </Col>
         </Row>

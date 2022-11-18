@@ -42,12 +42,12 @@
 
 }
 
-.hero img {
-    animation: float 12s linear infinite;
+.astronaut_img {
+    animation: float_in_space 15s linear infinite;
 }
 
 
-@keyframes float {
+@keyframes float_in_space {
     0% {
         transform: scale(0.5, 0.5) translateX(-400px) translateY(-300px);
 
