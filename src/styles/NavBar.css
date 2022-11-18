@@ -127,7 +127,6 @@ nav.navbar .navbar-toggler-icon:focus {
     border-bottom: 2px solid #fff;
 }
 
-
 nav.navbar .navbar-toggler-icon:after,
 nav.navbar .navbar-toggler-icon:before {
     width: 24px;
@@ -145,13 +144,16 @@ nav.navbar .navbar-toggler-icon:after {
     top: 8px;
 }
 
-div.dropdown-menu.show {
-    background-color: #6f0cfb;
-    opacity: 0.8;
-    margin-top: 1px;
-    border-radius: 5px;
+.form-check-input:checked {
+    background-color: rgb(26, 254, 5) !important;
+    border-color: rgb(26, 254, 5) !important;
 }
 
-a.dropdown-item {
-    color: #f8f8f8;
+.form-check-label {
+    color: rgb(64, 230, 249);
+    font-weight: 900;
+}
+
+.form-switch {
+    padding-top: 6px;
 }
