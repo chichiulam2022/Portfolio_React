@@ -50,7 +50,8 @@ span.navbar-text {
 .social-icon {
     display: inline-block;
     margin-left: 14px;
-    border-radius: 50%;
+    padding-left: 30px;
+    width: 200px;
 }
 
 

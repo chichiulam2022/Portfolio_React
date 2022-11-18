@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { Navbar, Nav, Container, Form } from "react-bootstrap";
 import github from '../assets/images/github.svg';
 import linkedin from '../assets/images/linkedin.svg';
-import email from '../assets/images/email.png'
 import '../styles/NavBar.css'
 import { useTranslation } from "react-i18next";
 
@@ -90,7 +89,6 @@ const NavBar = () => {
               <div className="social-icon">
                 <a href="https://github.com/chichiulam2022"><img src={github} alt="github" /></a>
                 <a href="https://www.linkedin.com/in/chichiu-lam-7142a771/"><img src={linkedin} alt="linkedin" /></a>
-                <a href="mailto:lamcc90@gmail.com"><img src={email} alt="email" /></a>
               </div>
             </span>
           </Navbar.Collapse>
