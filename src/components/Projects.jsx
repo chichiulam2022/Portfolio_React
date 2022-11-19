@@ -94,7 +94,7 @@ function Projects() {
         <Container>
           <Row>
             <Col size={12}>
-                <div>
+                <div className='project-bx'>
                   <h2>{t('title')}</h2>
                   <p>{t('text1')}</p><br/>
                   <p><i><b>{t('italic')}</b></i> {t('text2')}</p>                 

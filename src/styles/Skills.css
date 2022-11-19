@@ -1,6 +1,9 @@
 .skill {
     padding: 0 0 50px 0;
     position: relative;
+    background-image: linear-gradient(rgba(80, 0, 90, 0.5), rgba(10, 1, 11, 0.5)), url('../assets/images/starry-night-sky.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .skill-bx {
