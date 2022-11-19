@@ -1,6 +1,8 @@
 import React from 'react'
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import "../styles/Projects.css"
+import 'animate.css';
+import TrackVisibility from 'react-on-screen';
 
 //images
 import movieapp from '../assets/images/movieapp.png'
@@ -121,8 +123,11 @@ function Projects() {
                               </Nav.Link>
                             </Nav.Item>
                           </Nav>
-                          <Tab.Content id="slideInUp">
 
+                        <TrackVisibility>
+                            {({ isVisible }) =>
+                          <Tab.Content id="slideInUp"
+                          className={isVisible ? "animate__animated animate__slideInDown" : ""}>
 
                             {/* frontend projects */}
                             <Tab.Pane eventKey="first">
@@ -162,7 +167,8 @@ function Projects() {
                                 }
                               </Row>
                             </Tab.Pane>
-                          </Tab.Content>
+                          </Tab.Content>}
+                        </TrackVisibility>
                         </Tab.Container>       
                       </div>
                     </Col>

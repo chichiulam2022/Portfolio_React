@@ -3,6 +3,8 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import '../styles/Skills.css'
 import {useTranslation} from 'react-i18next'
+import 'animate.css'
+import TrackVisibility from 'react-on-screen';
 
 // images
 import JS from '../assets/images/js.svg'
@@ -40,11 +42,16 @@ function Skills() {
   const {t} = useTranslation(['skills'])
 
   return (
+    
     <section className="skill" id="skills">
         <div className="container">
             <div className="row">
                 <div className="col-12">
-                    <div className="skill-bx wow zoomIn">
+
+                <TrackVisibility>
+                {({ isVisible }) =>
+                    <div className={`skill-bx wow zoomIn
+                    ${isVisible ? "animate__animated animate__fadeInRight" : ''}`}>
                         <h2>{t('title')}</h2>
                         <p>{t('description')}</p>
                         <Carousel responsive={responsive} infinite={false} arrows={false} showDots={true} swipeable={true} draggable={true} className="owl-carousel owl-theme skill-slider">
@@ -85,11 +92,14 @@ function Skills() {
                                 <p>Express</p>
                             </div>
                         </Carousel>
-                    </div>
+                    </div>}
+                    </TrackVisibility>
                 </div>
+            
             </div>
         </div>
     </section>
+    
   )
 }
 

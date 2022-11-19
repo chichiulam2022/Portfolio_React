@@ -5,6 +5,8 @@ import {useTranslation} from 'react-i18next'
 import profilepic from '../assets/images/profile_pic_me.jpg'
 import { FiDownload } from 'react-icons/fi';
 import {BsFillFileEarmarkPdfFill} from 'react-icons/bs'
+import TrackVisibility from 'react-on-screen';
+import 'animate.css'
 
 function Aboutme() {
 
@@ -22,7 +24,12 @@ const {t} = useTranslation(['aboutme'])
                             <p>{t('text1')}</p>
                             <p>{t('text3')} <a href='/resume.pdf' download>{t('resume')} <FiDownload/> <BsFillFileEarmarkPdfFill/></a> {t('engonly')}.</p>
                           
-                            <img src={profilepic} alt='' className='col-4'/>
+                          <TrackVisibility>
+                          {({ isVisible }) =>
+                            <img src={profilepic} alt='cow' className={`col-4
+                            ${isVisible ? "animate__animated animate__flash" : ''}
+                            `}/>}
+                          </TrackVisibility>
                         </div>
                     </div>
                 </div>
