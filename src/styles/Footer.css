@@ -1,10 +1,13 @@
 footer {
     height: 11vh;
-    background-color: rgba(10, 1, 1, 0.973);
+    background-image: linear-gradient(rgba(18, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/images/starry-night-sky.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 footer p {
-    color: rgba(255, 255, 255, 0.562);
+    color: rgb(255, 179, 14);
+    font-weight: 900;
     font-size: 14px;
     text-align: center;
     padding-top: 10px;
