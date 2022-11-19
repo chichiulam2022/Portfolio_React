@@ -10,7 +10,8 @@
     font-size: 1.9rem;
     font-weight: 700;
     text-align: center;
-    text-decoration: orange underline;
+    text-decoration: rgb(255, 179, 14) underline;
+    color: rgb(255, 210, 125);
 }
 
 .project p {
@@ -27,7 +28,7 @@
     width: 72%;
     margin: 0 auto;
     border-radius: 10px;
-    background-color: rgb(48, 0, 151);
+    background-color: rgb(140, 102, 223);
     overflow: hidden;
 }
 
