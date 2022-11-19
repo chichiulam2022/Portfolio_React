@@ -1,0 +1,8 @@
+{
+    "title_travel": "NoMadTravels",
+    "title_challenge": "Don't Laugh Challenge",
+    "title_poke": "Pokedex",
+    "description_travel": "A social travel blog where users can login to view and add blog posts as well as upload pictures.",
+    "description_challenge": "A PWA webpack project written with \"icanhazdadjoke\" API that generates random jokes.",
+    "description_poke": "A simple React Pokémon game with PokéAPI."
+}

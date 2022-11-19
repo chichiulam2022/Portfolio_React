@@ -1,0 +1,8 @@
+{
+    "title_employer": "Chercheur-employeurs",
+    "title_social": "Réseaux sociaux",
+    "title_note": "Preneur de notes",
+    "description_employer": "Établi par MySQL, cette appli stocke des données d'entreprise comme les employés, les départements et les rôles.",
+    "description_social": "Une API de réseaux sociaux écrite en JavaScript à l'aide de MongoDB/Mongoose",
+    "description_note": "This project allows users to take and save their notes using Express."
+}

@@ -1,9 +1,5 @@
 .contact {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(13, 0, 0, 0.5)), url('../assets/images/space.jpg');
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 60px 0 200px 0;
+    background-color: linear-gradient(rgba(227, 0, 193, 0.5), rgba(255, 0, 0, 0.5));
 }
 
 .contact img {

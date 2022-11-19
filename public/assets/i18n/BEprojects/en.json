@@ -1,0 +1,8 @@
+{
+    "title_employer": "Employer Tracker",
+    "title_social": "Social Media Network",
+    "title_note": "Note Taker",
+    "description_employer": "Built with MySQL, this app stores company information such as employee, department, and role.",
+    "description_social": "A social network API written pure JavaScript with MongoDB/Mongoose.",
+    "description_note": "This project allows users to take and save their notes using Express."
+}

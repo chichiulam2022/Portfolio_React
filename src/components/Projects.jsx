@@ -19,13 +19,12 @@ import reactIcon from  '../assets/images/react_icon.png'
 import mysql from '../assets/images/mysql_icon.png'
 import mongodb from '../assets/images/mongodb_icon.png'
 import api from '../assets/images/api.png'
-
 import ProjectCard from './ProjectCard';
 import { useTranslation } from "react-i18next";
 
 function Projects() {
 
-  const {t} = useTranslation(['projects', 'FEprojects', 'tabs'])
+  const {t} = useTranslation(['projects', 'FEprojects', 'BEprojects', "Fullprojects", 'tabs'])
 
     const frontEndProjects = [
         {
@@ -50,20 +49,20 @@ function Projects() {
 
       const backEndProjects = [
         {
-          title: "Employer Tracker",
-          description: "Built with MySQL, this app stores company information such as employee, department, and role.",
+          title: t('title_employer', { ns: 'BEprojects' }),
+          description: t('description_employer', { ns: 'BEprojects' }),
           imgUrl: employer,
           link: 'https://github.com/chichiulam2022/employer_tracker'
         },
         {
-          title: "Social Media Network",
-          description: "A social network API written pure JavaScript with MongoDB/Mongoose.",
+          title: t('title_social', { ns: 'BEprojects' }),
+          description: t('description_social', { ns: 'BEprojects' }),
           imgUrl: socialNetwork,
           link: 'https://github.com/chichiulam2022/Social_Network_API'
         },
         {
-          title: "Note Taker",
-          description: "This project allows users to take and save their notes using Express.",
+          title: t('title_note', { ns: 'BEprojects' }),
+          description: t('description_social', { ns: 'BEprojects' }),
           imgUrl: noteTaker,
           link: 'https://github.com/chichiulam2022/note_taker_'
         }
@@ -71,20 +70,20 @@ function Projects() {
 
       const fullStackProjects = [
         {
-          title: "NoMadTravels",
-          description: "A social travel blog where users can login to view and add blog posts as well as upload pictures.",
+          title: t('title_travel', { ns: 'Fullprojects' }),
+          description: t('description_travel', { ns: 'Fullprojects' }),
           imgUrl: nomadTravels,
           link: 'https://github.com/chichiulam2022/travel_blog'
         },
         {
-          title: `Don't Laugh Challenge HAHAHAHA`,
-          description: `A PWA webpack project written with "icanhazdadjoke" API that generates random jokes`,
+          title: t('title_challenge', { ns: 'Fullprojects' }),
+          description: t('description_challenge', { ns: 'Fullprojects' }),
           imgUrl: jokes,
           link: 'https://github.com/chichiulam2022/dont-laugh-challenge-Webpack_Project'
         },
         {
-          title: "Pokedex",
-          description: "A simple React Pokémon game with PokéAPI.",
+          title: t('title_poke', { ns: 'Fullprojects' }),
+          description: t('description_poke', { ns: 'Fullprojects' }),
           imgUrl: pokemon,
           link: 'https://github.com/chichiulam2022/dont-laugh-challenge-Webpack_Project'
         }
