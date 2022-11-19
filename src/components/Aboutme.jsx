@@ -31,9 +31,7 @@ const {t} = useTranslation(['aboutme'])
                         </div>}
                       </TrackVisibility>
                     </div>
-                  
                 </div>
-              
             </div>   
         </div>
         </section>
