@@ -127,7 +127,7 @@ function Projects() {
                         <TrackVisibility>
                             {({ isVisible }) =>
                           <Tab.Content id="slideInUp"
-                          className={isVisible ? "animate__animated animate__slideInDown" : ""}>
+                          className={isVisible ? "animate__animated animate__flash animate__slow" : ""}>
 
                             {/* frontend projects */}
                             <Tab.Pane eventKey="first">

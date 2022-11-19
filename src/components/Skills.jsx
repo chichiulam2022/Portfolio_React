@@ -47,11 +47,10 @@ function Skills() {
         <div className="container">
             <div className="row">
                 <div className="col-12">
-
                 <TrackVisibility>
                 {({ isVisible }) =>
                     <div className={`skill-bx wow zoomIn
-                    ${isVisible ? "animate__animated animate__fadeInRight" : ''}`}>
+                    ${isVisible ? "animate__animated animate__flipInX" : ''}`}>
                         <h2>{t('title')}</h2>
                         <p>{t('description')}</p>
                         <Carousel responsive={responsive} infinite={false} arrows={false} showDots={true} swipeable={true} draggable={true} className="owl-carousel owl-theme skill-slider">

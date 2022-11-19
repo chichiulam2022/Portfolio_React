@@ -17,23 +17,26 @@ const {t} = useTranslation(['aboutme'])
         <div className="container">
             <div className="row">
                 <div className="col-12">
+                
+                 
                     <div className="aboutme-bx wow zoomIn">
                         <h2>{t('title')}</h2>
-                        <div className='text-container'>
+                        <TrackVisibility>
+                        {({ isVisible }) =>
+                        <div className={`text-container
+                        ${isVisible ? "animate__animated animate__flipInY" : ''}
+                        `}>
                             <p>{t('intro')}</p>
                             <p>{t('text1')}</p>
                             <p>{t('text3')} <a href='/resume.pdf' download>{t('resume')} <FiDownload/> <BsFillFileEarmarkPdfFill/></a> {t('engonly')}.</p>
-                          
-                          <TrackVisibility>
-                          {({ isVisible }) =>
-                            <img src={profilepic} alt='cow' className={`col-4
-                            ${isVisible ? "animate__animated animate__flash" : ''}
-                            `}/>}
-                          </TrackVisibility>
-                        </div>
+                            <img src={profilepic} alt='cow' className="col-4"/>
+                        </div>}
+                      </TrackVisibility>
                     </div>
+                  
                 </div>
-            </div>
+              
+            </div>   
         </div>
         </section>
     </div>
