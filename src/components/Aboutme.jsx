@@ -17,8 +17,6 @@ const {t} = useTranslation(['aboutme'])
         <div className="container">
             <div className="row">
                 <div className="col-12">
-                
-                 
                     <div className="aboutme-bx wow zoomIn">
                         <h2>{t('title')}</h2>
                         <TrackVisibility>
