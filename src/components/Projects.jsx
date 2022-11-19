@@ -111,8 +111,8 @@ function Projects() {
                             <Nav.Item>
                               <Nav.Link eventKey="second">{t('title2', { ns: 'tabs' })}<br/>
                                 <img className='code-icon'src={dataBases} alt="databases"/>&nbsp;
-                                &nbsp;<img className='code-icon'src={mysql} alt="mysql"/>
-                                &nbsp;<img className='code-icon'src={mongodb} alt="mysql"/>
+                                <img className='code-icon'src={mysql} alt="mysql"/>
+                                <img className='code-icon'src={mongodb} alt="mongodb"/>
                               </Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
