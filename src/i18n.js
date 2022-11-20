@@ -12,7 +12,8 @@ i18n.use(Backend)
         },
         fallbackLng: 'en',
         debug: false,
-        ns: ['navbar', 'skills', 'projects', 'aboutme', 'hero'],
+        ns: ['aboutme', 'Beprojects', 'contactme',
+            'FEprojects', 'footer', 'Fullprojects', 'hero', 'navbar', 'projects', 'skills', 'tabs'],
         interpolation: {
             espaceValue: false,
             formatSeparator: ',',
