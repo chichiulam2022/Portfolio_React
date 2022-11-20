@@ -29,9 +29,7 @@
     padding: 60px 15px;
     border-radius: 35px;
     backdrop-filter: blur(2px);
-    /* border: 1px solid #d99f00; */
-    border: 2px solid rgb(89, 135, 199);
-
+    border: 2px solid #d99f00;
 }
 
 .project .nav.nav-pills {
