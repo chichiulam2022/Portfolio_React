@@ -105,7 +105,7 @@ function Projects() {
                             <Nav.Item>
                               <Nav.Link eventKey="first" id='tab1'>{t('title1', { ns: 'tabs' })}<br/>
                                 <img className='code-icon'src={frontCode} alt="frontend"/>&nbsp;
-                                &nbsp;<img className='code-icon'src={api} alt="api"/>
+                                <img className='code-icon'src={api} alt="api"/>
                               </Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
@@ -118,7 +118,7 @@ function Projects() {
                             <Nav.Item>
                               <Nav.Link eventKey="third">{t('title3', { ns: 'tabs' })}<br/>
                                 <img className='code-icon'src={fullStack} alt="fullstack"/>&nbsp;
-                                &nbsp;<img className='code-icon'src={reactIcon} alt="react"/>
+                                <img className='code-icon'src={reactIcon} alt="react"/>
                                 
                               </Nav.Link>
                             </Nav.Item>

@@ -53,7 +53,8 @@ function Skills() {
                     ${isVisible ? "animate__animated animate__flipInX" : ''}`}>
                         <h2>{t('title')}</h2>
                         <p>{t('description')}</p>
-                        <Carousel responsive={responsive} infinite={false} arrows={false} showDots={true} swipeable={true} draggable={true} className="owl-carousel owl-theme skill-slider">
+                        <Carousel responsive={responsive} infinite={false} arrows={false} showDots={true} 
+                        swipeable={true} draggable={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={JS} alt="javascript" />
                                 <p>JavaScript + ES6</p> 

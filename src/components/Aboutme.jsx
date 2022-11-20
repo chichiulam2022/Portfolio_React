@@ -21,15 +21,17 @@ const {t} = useTranslation(['aboutme'])
                         <h2>{t('title')}</h2>
                         <TrackVisibility>
                         {({ isVisible }) =>
-                        <div className={`text-container
-                        ${isVisible ? "animate__animated animate__flipInY" : ''}
-                        `}>
+                        <div className="text-container">
                             <p>{t('intro')}</p>
                             <p>{t('text1')}</p>
-                            <p>{t('text3')} <a href='/resume.pdf' download>{t('resume')} <FiDownload/> <BsFillFileEarmarkPdfFill/></a> {t('engonly')}.</p>
-                            <img src={profilepic} alt='cow' className="col-4"/>
+                            <p>{t('text3')} <a href='/resume.pdf' download 
+                            className={isVisible ? "animate__animated animate__flash animate__repeat-2" : ''}
+                            >{t('resume')} <FiDownload/> <BsFillFileEarmarkPdfFill/></a> {t('engonly')}.</p>
+                              <img src={profilepic} alt='cow' className={`col-4
+                              ${isVisible ? "animate__animated animate__wobble" : ''}`}/>
                         </div>}
-                      </TrackVisibility>
+                        </TrackVisibility>
+                     
                     </div>
                 </div>
             </div>   
