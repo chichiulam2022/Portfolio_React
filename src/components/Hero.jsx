@@ -17,9 +17,7 @@ function Hero() {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeInLeft animate__slow" : ''}>
-
                 <span className="tagline">{t('welcome')} 😊</span>
-
                 <h1>{t('pronoun')} <span className='namespan'>{t('name')}</span>.<br/>
                 {t('single_pronoun')} <span style={{ color: '#cd0033', fontWeight: 'bold', textShadow: "2px 2px 2px" }}>
                 <Typewriter
@@ -35,7 +33,6 @@ function Hero() {
                 </h1>
                 <br/>
                   <h5>{t('detailText')}</h5>
-                 
               </div>}
             </TrackVisibility>
           </Col>

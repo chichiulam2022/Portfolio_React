@@ -17,7 +17,6 @@ import mongodb from '../assets/images/mongodb.png'
 import graphql from '../assets/images/graphql.png'
 import express from '../assets/images/express.svg'
 
-
 const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },

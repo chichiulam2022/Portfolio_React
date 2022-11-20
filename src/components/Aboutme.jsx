@@ -36,7 +36,7 @@ const {t} = useTranslation(['aboutme'])
                 </div>
             </div>   
         </div>
-        </section>
+      </section>
     </div>
   )
 }
