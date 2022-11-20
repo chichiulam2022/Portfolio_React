@@ -1,10 +1,11 @@
 {
     "welcome": "Welcome to My Portfolio",
     "pronoun": "I'm",
-    "name": "Chi Chiu LAM",
+    "name": "Chi Chiu",
+    "last_name": "Lam",
     "single_pronoun": "I",
     "animatedText1": "Code.",
     "animatedText2": "Create.",
     "animatedText3": "Contribute.",
-    "detailText": "Like in space, my coding and UI/UX world is full of imagination, creativity and freedom. Have fun to explore it."
+    "detailText": "Like in space, my coding and UI/UX world is full of imagination, creativity, and freedom. Have fun to explore it."
 }

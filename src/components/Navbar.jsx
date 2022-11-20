@@ -8,16 +8,21 @@ import { useTranslation } from "react-i18next";
 const NavBar = () => {
   const [activeLink, setActiveLink] = useState("/home");
   const [scrolled, setScrolled] = useState(false);
+  const [emoji, setEmoji] = useState('🌎')
 
   //to detect if it's scrolled or not
   useEffect(() => {
     const onScroll = () => {
       if (window.scrollY > 35) {
         setScrolled(true);
+        setEmoji ('🚀')
+
       } else {
         setScrolled(false);
+        setEmoji ('🌎')
       }
     };
+
     window.addEventListener("scroll", onScroll);
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
@@ -30,7 +35,7 @@ const NavBar = () => {
   const [lang, setLang] = useState("en");
 
   // translation
-  const { i18n, t } = useTranslation(["navbar"]);
+  const {t, i18n} = useTranslation(["navbar"]);
 
   const handleLanguageChange = (e) => {
     i18n.changeLanguage(e.target.value);
@@ -45,7 +50,7 @@ const NavBar = () => {
     <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
       <Container>
         <Navbar.Brand className="logo" href="/">
-          <h1>Chi Chiu Lam</h1>
+          <h1>Chi Chiu Lam {emoji}</h1>
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="basic-navbar-nav">
