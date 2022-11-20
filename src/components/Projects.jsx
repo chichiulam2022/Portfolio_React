@@ -5,15 +5,15 @@ import "animate.css";
 import TrackVisibility from "react-on-screen";
 
 //images
-import movieapp from "../assets/images/movieapp.png";
-import weatherapp from "../assets/images/weatherapp.png";
-import trivia from "../assets/images/trivia.png";
-import socialNetwork from "../assets/images/social_network.png";
-import employer from "../assets/images/employer.png";
-import noteTaker from "../assets/images/note_taker.png";
-import nomadTravels from "../assets/images/nomad_travels.png";
-import jokes from "../assets/images/jokes.png";
-import pokemon from "../assets/images/pokemon.png";
+import movieapp from "../assets/images/movieapp.gif";
+import weatherapp from "../assets/images/weatherapp.gif";
+import trivia from "../assets/images/trivia.gif";
+import socialNetwork from "../assets/images/social_network.gif";
+import employer from "../assets/images/employer.gif";
+import noteTaker from "../assets/images/note_taker.gif";
+import nomadTravels from "../assets/images/nomad_travels.gif";
+import jokes from "../assets/images/jokes.gif";
+import pokemon from "../assets/images/pokemon.gif";
 import frontCode from "../assets/images/front-code.png";
 import dataBases from "../assets/images/databases.png";
 import fullStack from "../assets/images/fullstack.png";
@@ -92,7 +92,7 @@ function Projects() {
       title: t("title_poke", { ns: "Fullprojects" }),
       description: t("description_poke", { ns: "Fullprojects" }),
       imgUrl: pokemon,
-      link: "https://github.com/chichiulam2022/dont-laugh-challenge-Webpack_Project",
+      link: "https://github.com/chichiulam2022/Pokedex_React.js",
     },
   ];
 
@@ -159,16 +159,8 @@ function Projects() {
                   </Nav.Item>
                 </Nav>
 
-                <TrackVisibility>
-                  {({ isVisible }) => (
-                    <Tab.Content
-                      id="slideInUp"
-                      className={
-                        isVisible
-                          ? "animate__animated animate__flash animate__slow"
-                          : ""
-                      }
-                    >
+               
+                    <Tab.Content id="slideInUp">
                       {/* frontend projects */}
                       <Tab.Pane eventKey="first">
                         <Row>
@@ -196,8 +188,6 @@ function Projects() {
                         </Row>
                       </Tab.Pane>
                     </Tab.Content>
-                  )}
-                </TrackVisibility>
               </Tab.Container>
             </div>
           </Col>
