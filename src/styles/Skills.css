@@ -12,7 +12,7 @@
     text-align: center;
     padding: 60px 50px;
     margin-top: 50px;
-    opacity: 0.85;
+    opacity: 0.7;
 }
 
 .skill h2 {
@@ -48,19 +48,14 @@
 
 .react-multi-carousel-dot button {
     display: inline-block;
-    width: 12px;
-    height: 12px;
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
-    opacity: 0.9;
-    padding: 5px 5px 5px 5px;
+    opacity: 0.8;
     box-shadow: none;
     transition: background .5s;
-    border-width: 2px;
-    border-style: solid;
-    border-color: rgb(72, 115, 243);
-    padding: 0;
-    margin: 0;
-    margin-right: 6px;
-    outline: 0;
+    border-width: 1px;
+    border-color: rgb(9, 255, 177);
+    margin-right: 7px;
     cursor: pointer;
 }
