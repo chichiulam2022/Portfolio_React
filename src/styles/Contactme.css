@@ -1,3 +1,10 @@
+.contact {
+    background-image: linear-gradient(rgba(7, 0, 22, 0.5), rgba(3, 0, 51, 0.5)), url('../assets/images/space2.jpg');
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .contact img {
     width: 92%;
     animation: flying 8s linear infinite;
