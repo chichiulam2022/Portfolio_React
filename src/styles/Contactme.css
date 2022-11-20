@@ -1,7 +1,3 @@
-.contact {
-    background-color: linear-gradient(rgba(227, 0, 193, 0.5), rgba(255, 0, 0, 0.5));
-}
-
 .contact img {
     width: 92%;
     animation: flying 8s linear infinite;
@@ -11,6 +7,8 @@
     font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 20px;
+    color: rgb(27, 255, 209);
+    font-weight: 900;
 }
 
 .contact form input,

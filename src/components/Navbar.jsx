@@ -88,7 +88,7 @@ const NavBar = () => {
 
               <div className="social-icon">
                 <a href="https://github.com/chichiulam2022"><img src={github} alt="github" /></a>
-                <a href="https://www.linkedin.com/in/chichiu-lam-7142a771/"><img src={linkedin} alt="linkedin" /></a>
+                <a href="https://www.linkedin.com/in/chi-chiu-lam-7142a771/"><img src={linkedin} alt="linkedin" /></a>
               </div>
             </span>
           </Navbar.Collapse>
