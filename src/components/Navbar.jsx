@@ -5,45 +5,42 @@ import linkedin from '../assets/images/linkedin.svg';
 import '../styles/NavBar.css'
 import { useTranslation } from "react-i18next";
 
-
 const NavBar = () => {
 
-  const [activeLink, setActiveLink] = useState('home');
+  const [activeLink, setActiveLink] = useState('/home');
   const [scrolled, setScrolled] = useState(false);
-
-  // translation
-  const {i18n, t} = useTranslation(['navbar'])
-  
-  const handleLanguageChange = e => {
-    i18n.changeLanguage(e.target.value)
-    console.log(e.target.value)
-  }
 
 //to detect if it's scrolled or not
   useEffect(() => {
     const onScroll = () => {
-      if (window.scrollY > 50) {
+      if (window.scrollY > 35) {
         setScrolled(true);
       } else {
         setScrolled(false);
       }
     }
-
     window.addEventListener("scroll", onScroll);
     return () => window.removeEventListener("scroll", onScroll);
   }, [])
 
-  const onUpdateActiveLink = (value) => {
+  const onUpdateActiveLink = value => {
     setActiveLink(value);
   }
 
   // language handle check
   const [lang, setLang] = useState('en')
+
+   // translation
+   const {i18n, t} = useTranslation(['navbar'])
+  
+   const handleLanguageChange = e => {
+     i18n.changeLanguage(e.target.value)
+     console.log(e.target.value)
+   }
   
   const handleLangChange = e => {
     setLang(e.target.value)
   }
-
 
   return (
       <Navbar expand="md" className={ scrolled ? "scrolled" : ""}>
@@ -85,7 +82,6 @@ const NavBar = () => {
                     </Nav>
 
             <span className="navbar-text">
-
               <div className="social-icon">
                 <a href="https://github.com/chichiulam2022"><img src={github} alt="github" /></a>
                 <a href="https://www.linkedin.com/in/chi-chiu-lam-7142a771/"><img src={linkedin} alt="linkedin" /></a>
