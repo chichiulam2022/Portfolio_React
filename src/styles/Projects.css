@@ -20,12 +20,13 @@
     font-size: 1.2rem;
     letter-spacing: 0.8px;
     line-height: 1.5em;
-    margin: 14px auto 30px auto;
+    margin: 40px auto 30px auto;
     text-align: center;
-    width: 56%;
+    width: 75%;
 }
 
 .project-bx {
+    /* padding: 60px 15px; */
     padding: 60px 15px;
     border-radius: 35px;
     backdrop-filter: blur(2px);
