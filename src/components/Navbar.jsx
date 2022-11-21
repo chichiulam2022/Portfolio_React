@@ -47,7 +47,7 @@ const NavBar = () => {
   };
 
   return (
-    <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
+    <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
       <Container>
         <Navbar.Brand className="logo" href="/">
           <h1>Chi Chiu Lam {emoji}</h1>
@@ -99,8 +99,10 @@ const NavBar = () => {
             <Form
               value={localStorage.getItem("i18nextLng")}
               onChange={handleLanguageChange}
+              className="lang-form"
             >
-              <Form.Switch
+              <Form.Check
+                inline
                 type="switch"
                 id="custom-switch"
                 label="English 🇨🇦"
@@ -108,7 +110,8 @@ const NavBar = () => {
                 checked={lang === "en"}
                 onChange={handleLangChange}
               />
-              <Form.Switch
+              <Form.Check
+                inline
                 type="switch"
                 label="Français 🇨🇦"
                 id="disabled-custom-switch"
