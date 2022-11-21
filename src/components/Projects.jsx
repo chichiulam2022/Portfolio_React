@@ -1,8 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import "../styles/Projects.css";
-import "animate.css";
-import TrackVisibility from "react-on-screen";
 
 //images
 import movieapp from "../assets/images/movieapp.gif";
