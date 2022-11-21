@@ -1,8 +1,9 @@
 .logo h1 {
     font-family: Megrim;
-    color: white;
+    color: rgb(235, 232, 232);
     font-size: 2rem;
     margin: auto;
+    font-weight: 900;
 }
 
 nav.navbar {
