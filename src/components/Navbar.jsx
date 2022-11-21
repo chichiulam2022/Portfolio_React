@@ -10,18 +10,21 @@ import { useTranslation } from "react-i18next";
 const NavBar = () => {
   const [activeLink, setActiveLink] = useState("/home");
   const [scrolled, setScrolled] = useState(false);
-  const [emoji, setEmoji] = useState('🌎')
-
+  const [emoji1, setEmoji1] = useState('👨🏽‍💻')
+  const [emoji2, setEmoji2] = useState('🌎')
+  
   //to detect if it's scrolled or not
   useEffect(() => {
     const onScroll = () => {
       if (window.scrollY > 35) {
         setScrolled(true);
-        setEmoji ('🚀')
+        setEmoji1 ('🧑🏽‍🚀')
+        setEmoji2 ('🚀')
 
       } else {
         setScrolled(false);
-        setEmoji ('🌎')
+        setEmoji1 ('👨🏽‍💻')
+        setEmoji2 ('🌎')
       }
     };
 
@@ -51,7 +54,7 @@ const NavBar = () => {
     <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
       <Container>
         <Navbar.Brand className="logo" href="/">
-          <h1>Chi Chiu Lam {emoji}</h1>
+          <h1>Chi Chiu Lam {emoji1}&nbsp;{emoji2}</h1>
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="basic-navbar-nav">
