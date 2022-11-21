@@ -54,7 +54,7 @@ const NavBar = () => {
     <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
       <Container>
         <Navbar.Brand className="logo" href="/">
-          <h1>Chi Chiu Lam {emoji1}&nbsp;{emoji2}</h1>
+          <h1>{emoji1} Chi Chiu Lam {emoji2}</h1>
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="basic-navbar-nav">
@@ -62,7 +62,9 @@ const NavBar = () => {
         </Navbar.Toggle>
 
         <Navbar.Collapse id="basic-navbar-nav">
+          {/* <Nav className="ms-auto"> */}
           <Nav className="ms-auto">
+            
             <Nav.Link
               href="#home"
               className={
@@ -99,6 +101,7 @@ const NavBar = () => {
             >
               <p>{t("aboutme")}</p>
             </Nav.Link>
+          
 
             <Form
               value={localStorage.getItem("i18nextLng")}
