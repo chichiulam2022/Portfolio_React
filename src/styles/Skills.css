@@ -71,10 +71,22 @@
     margin: 0 -40px 100px 30px;
 }
 
+
 .react-multiple-carousel__arrow--right {
     background-color: transparent;
     margin-left: 30px;
 }
+
+.react-multiple-carousel__arrow::before {
+    font-size: 19px;
+    color: rgb(251, 251, 163);
+    font-weight: bold;
+}
+
+.react-multiple-carousel__arrow:hover {
+    background: none;
+}
+
 
 .react-multiple-carousel__arrow--left {
     background-color: transparent;
