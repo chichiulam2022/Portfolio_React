@@ -3,7 +3,7 @@ import { Navbar, Nav, Container, Form } from "react-bootstrap";
 import github from "../assets/images/github.svg";
 import linkedin from "../assets/images/linkedin.svg";
 import gmail from "../assets/images/gmail.svg";
-import slack from "../assets/images/slack.svg";
+import heroku from "../assets/images/heroku.svg";
 import "../styles/NavBar.css";
 import { useTranslation } from "react-i18next";
 
@@ -41,7 +41,6 @@ const NavBar = () => {
 
   const handleLanguageChange = (e) => {
     i18n.changeLanguage(e.target.value);
-    console.log(e.target.value);
   };
 
   const handleLangChange = (e) => {
@@ -128,12 +127,20 @@ const NavBar = () => {
             <div className="social-icon">
               <a href="https://github.com/chichiulam2022">
                 <img src={github} alt="github" />
+                <span class="hide">Github</span>
+
+              </a>
+              <a href="https://dashboard.heroku.com/apps">
+                <img src={heroku} alt="heroku" />
+                <span class="hide">Heroku</span>
               </a>
               <a href="https://www.linkedin.com/in/chi-chiu-lam-7142a771/">
                 <img src={linkedin} alt="linkedin" />
+                <span class="hide">LinkedIn</span>
               </a>
               <a href="mailto:lamcc90@gmail.com">
                 <img src={gmail} alt="gmail" />
+                <span class="hide">Gmail</span>
               </a>
             </div>
           </span>
