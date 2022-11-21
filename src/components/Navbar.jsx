@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import { Navbar, Nav, Container, Form } from "react-bootstrap";
 import github from "../assets/images/github.svg";
 import linkedin from "../assets/images/linkedin.svg";
+import gmail from "../assets/images/gmail.svg";
+import slack from "../assets/images/slack.svg";
 import "../styles/NavBar.css";
 import { useTranslation } from "react-i18next";
 
@@ -129,6 +131,9 @@ const NavBar = () => {
               </a>
               <a href="https://www.linkedin.com/in/chi-chiu-lam-7142a771/">
                 <img src={linkedin} alt="linkedin" />
+              </a>
+              <a href="mailto:lamcc90@gmail.com">
+                <img src={gmail} alt="gmail" />
               </a>
             </div>
           </span>
