@@ -12,10 +12,10 @@ import html from '../assets/images/html.svg'
 import css from '../assets/images/css.svg'
 import react from '../assets/images/react_icon.png'
 import bootstrap from '../assets/images/bootstrap.svg'
-import mysql from '../assets/images/mysql.png'
+import mysql from '../assets/images/mysql.svg'
 import mongodb from '../assets/images/mongodb.png'
 import graphql from '../assets/images/graphql.png'
-import express from '../assets/images/express.svg'
+import nodejs from '../assets/images/nodejs.svg'
 
 const responsive = {
     superLargeDesktop: {
@@ -40,6 +40,8 @@ function Skills() {
 
   const {t} = useTranslation(['skills'])
 
+  
+
   return (
     
     <section className="skill" id="skills">
@@ -52,8 +54,9 @@ function Skills() {
                     ${isVisible ? "animate__animated animate__flipInX" : ''}`}>
                         <h2>{t('title')}</h2>
                         <p>{t('description')}</p>
-                        <Carousel responsive={responsive} infinite={false} arrows={false} showDots={true} 
-                        swipeable={true} draggable={true} className="owl-carousel owl-theme skill-slider">
+                        <Carousel responsive={responsive} infinite={false} arrows={true} 
+                         removeArrowOnDeviceType={["tablet", "mobile"]}
+                        showDots={true} swipeable={true} draggable={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={JS} alt="javascript" />
                                 <p>JavaScript + ES6</p> 
@@ -87,8 +90,8 @@ function Skills() {
                                 <p>GraphQL</p>
                             </div>
                             <div className="item">
-                                <img src={express} alt="express" />
-                                <p>Express</p>
+                                <img src={nodejs} alt="nodejs" />
+                                <p>Node.js</p>
                             </div>
                         </Carousel>
                     </div>}

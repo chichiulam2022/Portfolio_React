@@ -36,13 +36,20 @@
     position: relative;
 }
 
+.skill-slider p {
+    color: rgb(156, 208, 231);
+    font-size: 0.95rem;
+    font-weight: 900;
+    line-height: normal;
+}
+
 .skill-slider .item img {
     width: 50%;
-    margin: 0 auto 15px auto;
+    margin: 0 auto 10px auto;
 }
 
 .item img {
-    max-width: 80px;
+    max-width: 85px;
     padding: 0 5px 0 5px;
 }
 
@@ -58,4 +65,18 @@
     border-color: rgb(9, 255, 177);
     margin-right: 7px;
     cursor: pointer;
+}
+
+.react-multiple-carousel__arrow {
+    margin: 0 -40px 100px 30px;
+}
+
+.react-multiple-carousel__arrow--right {
+    background-color: transparent;
+    margin-left: 30px;
+}
+
+.react-multiple-carousel__arrow--left {
+    background-color: transparent;
+    margin-left: -30px;
 }
