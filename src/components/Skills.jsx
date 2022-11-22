@@ -8,13 +8,14 @@ import TrackVisibility from 'react-on-screen';
 
 // images
 import JS from '../assets/images/js.svg'
-import html from '../assets/images/html.svg'
-import css from '../assets/images/css.svg'
-import react from '../assets/images/react_icon.png'
+import TS from '../assets/images/typescript.svg'
+import html from '../assets/images/html1.svg'
+import css from '../assets/images/css1.svg'
+import react from '../assets/images/react.svg'
 import bootstrap from '../assets/images/bootstrap.svg'
 import mysql from '../assets/images/mysql.svg'
 import mongodb from '../assets/images/mongodb.png'
-import graphql from '../assets/images/graphql.png'
+import graphql from '../assets/images/graphql.svg'
 import nodejs from '../assets/images/nodejs.svg'
 
 const responsive = {
@@ -58,16 +59,20 @@ function Skills() {
                          removeArrowOnDeviceType={["tablet", "mobile"]}
                         showDots={true} swipeable={true} draggable={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={JS} alt="javascript" />
-                                <p>JavaScript + ES6</p> 
-                            </div>
-                            <div className="item">
                                 <img src={html} alt="html" />
                                 <p>HTML 5</p>
                             </div>
                             <div className="item">
                                 <img src={css} alt="css" />
                                 <p>CSS</p>
+                            </div>
+                            <div className="item">
+                                <img src={JS} alt="javascript" />
+                                <p>JavaScript + ES6</p> 
+                            </div>
+                            <div className="item">
+                                <img src={TS} alt="typescript" />
+                                <p>TypeScript</p> 
                             </div>
                             <div className="item">
                                 <img src={react} alt="react" />

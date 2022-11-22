@@ -27,7 +27,6 @@
     font-size: 1.2rem;
     letter-spacing: 0.8px;
     line-height: 1.5em;
-    /* margin: 14px 0 75px 0; */
     width: 98%;
     margin: 40px auto 30px auto;
 }
@@ -43,6 +42,8 @@
     font-size: 0.95rem;
     font-weight: 900;
     line-height: normal;
+    margin-top: 13px;
+    margin-bottom: 65px;
 }
 
 .skill-slider .item img {
@@ -60,12 +61,12 @@
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    opacity: 0.8;
+    opacity: 0.7;
     box-shadow: none;
     transition: background .5s;
     border-width: 1px;
-    border-color: rgb(9, 255, 177);
-    margin-right: 7px;
+    border-color: rgb(122, 20, 255);
+    margin-right: 9px;
     cursor: pointer;
 }
 
