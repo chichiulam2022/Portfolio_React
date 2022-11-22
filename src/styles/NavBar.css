@@ -12,6 +12,13 @@ nav.navbar {
     z-index: 9999;
     transition: 0.32s ease-in-out;
     background-color: rgba(1, 11, 75, 0.8);
+    /* padding: 0; */
+    padding: 9px 0px;
+}
+
+div.container {
+    padding: 0;
+    margin: auto;
 }
 
 nav.navbar.scrolled {
@@ -33,8 +40,6 @@ nav.navbar .navbar-nav .nav-link.navbar-link,
     font-size: 1em;
     transition: all 0.5s;
 }
-
-
 
 nav.navbar .navbar-nav a.nav-link.navbar-link p:hover {
     text-decoration: underline;
