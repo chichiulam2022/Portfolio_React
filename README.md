@@ -1,11 +1,12 @@
 # Portfolio_React 
 
+***Deployed URL: https://chichiulam.netlify.app/***
+
 Hi everyone. Here's my bilingual (English and French) personal portfolio page. I hope you'll find it enjoyable to read.
 This project is my first personal portfolio page wirtten with [Create React App](https://github.com/facebook/create-react-app). <br>
 <img width="130" alt="Screenshot 2022-11-17 at 5 55 07 PM" src="https://user-images.githubusercontent.com/108379616/202578167-9c9cbcd7-d180-4bd9-b6b9-f8ad23f77130.png">
 <img width="80" alt="Screenshot 2022-11-17 at 5 55 07 PM" src="https://user-images.githubusercontent.com/108379616/202578561-4fb7b6a6-6e9d-4ab1-8891-e8da0b30ee10.png">
 
-Deployed URL: https://chichiulam.netlify.app/ 
 
 
 ## Description
