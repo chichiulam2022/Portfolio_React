@@ -51,7 +51,7 @@ const NavBar = () => {
   };
 
   return (
-    <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
+    <Navbar expand="lg" className={`px-4 ${scrolled ? "scrolled" : ""}`}>
       <Container>
         <Navbar.Brand className="logo" href="/">
           <h1>{emoji1} Chi Chiu Lam {emoji2}</h1>

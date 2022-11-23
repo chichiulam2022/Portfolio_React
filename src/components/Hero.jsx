@@ -10,7 +10,7 @@ import {useTranslation} from 'react-i18next'
 function Hero() {
   const {t} = useTranslation(['hero'])
   return (
-    <section className="hero" id="home">
+    <section className="hero px-4" id="home">
       <Container>
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
@@ -19,7 +19,7 @@ function Hero() {
               <div className={isVisible ? "animate__animated animate__fadeInLeft animate__slow" : ''}>
                 <span className="tagline">{t('welcome')} 😊</span>
                 <h1>{t('pronoun')} <span className='namespan'>{t('name')}</span>.<br/>
-                {t('single_pronoun')} <span style={{ color: '#cd0033', fontWeight: 'bold', textShadow: "2px 2px 2px" }}>
+                {t('single_pronoun')} <span className="typewriter-text">
                 <Typewriter
                 words={[t('animatedText1'), t('animatedText2'), t('animatedText3')]} 
                 loop={false}

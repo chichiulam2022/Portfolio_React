@@ -7,7 +7,7 @@ function Contactme() {
 
 const {t} = useTranslation(['contactme'])
   return (
-    <section className="contact" id="connect">
+    <section className="contact px-4" id="connect">
       <Container>
         <Row className="align-items-center">
           <Col size={12} md={6}>

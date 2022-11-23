@@ -95,7 +95,7 @@ function Projects() {
   ];
 
   return (
-    <section className="project" id="project">
+    <section className="project px-4" id="project">
       <Container>
         <Row>
           <Col size={12}>

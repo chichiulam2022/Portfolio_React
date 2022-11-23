@@ -12,7 +12,7 @@ function Aboutme() {
 const {t} = useTranslation(['aboutme'])
   return (
     <div>
-      <section className="aboutme" id="aboutme">
+      <section className="aboutme px-4" id="aboutme">
         <div className="container">
             <div className="row">
                 <div className="col-12">

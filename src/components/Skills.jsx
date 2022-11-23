@@ -45,7 +45,7 @@ function Skills() {
 
   return (
     
-    <section className="skill" id="skills">
+    <section className="skill px-4" id="skills">
         <div className="container">
             <div className="row">
                 <div className="col-12">
