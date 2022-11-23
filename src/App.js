@@ -17,7 +17,7 @@ function App() {
     setLoading(true)
     setTimeout(() => {
       setLoading(false)
-    }, 3500)
+    }, 3100)
   }, [])
 
   return (
@@ -49,10 +49,8 @@ function App() {
               <Skills />
               <Projects />
               <Aboutme />
-              <Parallax speed={-10}>
-                <Contactme />
-                <Footer />
-              </Parallax>
+              <Contactme />
+              <Footer />
             </ParallaxBanner>
           </ParallaxProvider>
       }

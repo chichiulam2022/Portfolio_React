@@ -9,6 +9,7 @@ function Footer() {
     <div>
       <footer>
         <p>Copyrights &#169; 2022 Chi Chiu Lam</p>
+        <div className='vl'></div>
         <p>{t('copyright')}</p>
     </footer>
     </div>
