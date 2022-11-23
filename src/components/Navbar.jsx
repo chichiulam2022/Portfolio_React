@@ -56,15 +56,11 @@ const NavBar = () => {
         <Navbar.Brand className="logo" href="/">
           <h1>{emoji1} Chi Chiu Lam {emoji2}</h1>
         </Navbar.Brand>
-
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggler-icon"></span>
         </Navbar.Toggle>
-
         <Navbar.Collapse id="basic-navbar-nav">
-          {/* <Nav className="ms-auto"> */}
           <Nav className="ms-auto">
-            
             <Nav.Link
               href="#home"
               className={

@@ -18,6 +18,10 @@ import mongodb from '../assets/images/mongodb.png'
 import graphql from '../assets/images/graphql.svg'
 import nodejs from '../assets/images/nodejs.svg'
 
+//three.js
+import { Canvas } from '@react-three/fiber'
+import { Stars } from '@react-three/drei'
+
 const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
@@ -37,77 +41,85 @@ const responsive = {
     }
   };
 
+
 function Skills() {
-
-  const {t} = useTranslation(['skills'])
-
+    const { t } = useTranslation(["skills"]);
   
-
-  return (
-    
-    <section className="skill px-4" id="skills">
-        <div className="container">
-            <div className="row">
-                <div className="col-12">
-                <TrackVisibility>
-                {({ isVisible }) =>
-                    <div className={`skill-bx wow zoomIn
-                    ${isVisible ? "animate__animated animate__flipInX" : ''}`}>
-                        <h2>{t('title')}</h2>
-                        <p>{t('description')}</p>
-                        <Carousel responsive={responsive} infinite={false} arrows={true} 
-                         removeArrowOnDeviceType={["tablet", "mobile"]}
-                        showDots={true} swipeable={true} draggable={true} className="owl-carousel owl-theme skill-slider">
-                            <div className="item">
-                                <img src={html} alt="html" />
-                                <p>HTML 5</p>
-                            </div>
-                            <div className="item">
-                                <img src={css} alt="css" />
-                                <p>CSS</p>
-                            </div>
-                            <div className="item">
-                                <img src={JS} alt="javascript" />
-                                <p>JavaScript + ES6</p> 
-                            </div>
-                            <div className="item">
-                                <img src={TS} alt="typescript" />
-                                <p>TypeScript</p> 
-                            </div>
-                            <div className="item">
-                                <img src={react} alt="react" />
-                                <p>React</p>
-                            </div>
-                            <div className="item">
-                                <img src={bootstrap} alt="bootstrap" />
-                                <p>Bootstrap</p>
-                            </div>
-                            <div className="item">
-                                <img src={mysql} alt="mysql" />
-                                <p>MySQL</p>
-                            </div>
-                            <div className="item">
-                                <img src={mongodb} alt="mongodb" />
-                                <p>MongoDB</p>
-                            </div>
-                            <div className="item">
-                                <img src={graphql} alt="graphql" />
-                                <p>GraphQL</p>
-                            </div>
-                            <div className="item">
-                                <img src={nodejs} alt="nodejs" />
-                                <p>Node.js</p>
-                            </div>
-                        </Carousel>
-                    </div>}
-                    </TrackVisibility>
-                </div>
-            
+    return (
+      <section className="skill px-4">
+        <Canvas style={{ height: "60vh", width: "100vw", opacity: "0.6" }}>
+          <Stars />
+        </Canvas>
+        <div className="container" id="skills">
+          <div className="row">
+            <div className="col-12">
+              <TrackVisibility>
+                {({ isVisible }) => (
+                  <div
+                    className={`skill-bx wow zoomIn
+                      ${isVisible ? "animate__animated animate__flipInX" : ""}`}
+                  >
+                    <h2>{t("title")}</h2>
+                    <p>{t("description")}</p>
+                    <Carousel
+                      responsive={responsive}
+                      infinite={false}
+                      arrows={true}
+                      removeArrowOnDeviceType={["tablet", "mobile"]}
+                      showDots={true}
+                      swipeable={true}
+                      draggable={true}
+                      className="owl-carousel owl-theme skill-slider"
+                    >
+                      <div className="item">
+                        <img src={html} alt="html" />
+                        <p>HTML 5</p>
+                      </div>
+                      <div className="item">
+                        <img src={css} alt="css" />
+                        <p>CSS</p>
+                      </div>
+                      <div className="item">
+                        <img src={JS} alt="javascript" />
+                        <p>JavaScript + ES6</p>
+                      </div>
+                      <div className="item">
+                        <img src={TS} alt="typescript" />
+                        <p>TypeScript</p>
+                      </div>
+                      <div className="item">
+                        <img src={react} alt="react" />
+                        <p>React</p>
+                      </div>
+                      <div className="item">
+                        <img src={bootstrap} alt="bootstrap" />
+                        <p>Bootstrap</p>
+                      </div>
+                      <div className="item">
+                        <img src={mysql} alt="mysql" />
+                        <p>MySQL</p>
+                      </div>
+                      <div className="item">
+                        <img src={mongodb} alt="mongodb" />
+                        <p>MongoDB</p>
+                      </div>
+                      <div className="item">
+                        <img src={graphql} alt="graphql" />
+                        <p>GraphQL</p>
+                      </div>
+                      <div className="item">
+                        <img src={nodejs} alt="nodejs" />
+                        <p>Node.js</p>
+                      </div>
+                    </Carousel>
+                  </div>
+                )}
+              </TrackVisibility>
             </div>
+          </div>
         </div>
-    </section>
-    
-  )
-}
-
-export default Skills
+      </section>
+    );
+  }
+  
+  export default Skills;

@@ -10,6 +10,8 @@ import Footer from './components/Footer';
 import { Parallax, ParallaxProvider, ParallaxBanner } from 'react-scroll-parallax';
 import PacmanLoader from "react-spinners/PacmanLoader";
 
+import { Canvas } from '@react-three/fiber'
+import { Stars } from '@react-three/drei'
 
 function App() {
   const [loading, setLoading] = useState(false)
@@ -38,6 +40,7 @@ function App() {
               color="green"
               className='loader'
             />
+
           </div>
           :
           <ParallaxProvider>
@@ -54,7 +57,7 @@ function App() {
             </ParallaxBanner>
           </ParallaxProvider>
       }
-    </div>
+    </div >
   );
 }
 

@@ -7,6 +7,8 @@ import 'animate.css'
 import "../styles/Hero.css"
 import {useTranslation} from 'react-i18next'
 
+
+
 function Hero() {
   const {t} = useTranslation(['hero'])
   return (
@@ -26,8 +28,8 @@ function Hero() {
                 cursor
                 cursorStyle='|'
                 typeSpeed={100}
-                deleteSpeed={130}
-                delaySpeed={1100}
+                deleteSpeed={140}
+                delaySpeed={1200}
                 />
                 </span>
                 </h1>
