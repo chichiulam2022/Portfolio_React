@@ -65,8 +65,8 @@ function Aboutme() {
           </div>
         </div>
       </section>
-      <Canvas style={{ height: "60vh", width: "100vw", opacity: "0.9" }}>
-        <Stars />
+      <Canvas style={{ height: "45vh", width: "100vw", opacity: "1" }}>
+        <Stars count={1995} radius={80}/>
       </Canvas>
     </div>
   );

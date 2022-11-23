@@ -14,35 +14,26 @@ import { Canvas } from '@react-three/fiber'
 import { Stars } from '@react-three/drei'
 
 function App() {
-  const [loading, setLoading] = useState(false)
+  const [loading, setLoading] = useState(false);
   useEffect(() => {
-    setLoading(true)
+    setLoading(true);
     setTimeout(() => {
-      setLoading(false)
-    }, 3100)
-  }, [])
+      setLoading(false);
+    }, 3100);
+  }, []);
 
   return (
-    <div className='App'>
-      {
-        loading ?
-          <div className='loader-bx'>
-            <PacmanLoader
-              size={30}
-              color="orange"
-              className='loader'
-            />
-
-            <p className='loader-text'>Loading...</p>
-
-            <PacmanLoader
-              size={30}
-              color="green"
-              className='loader'
-            />
-
+    <div className="App">
+      {loading ?
+        (
+          <div className="loader-bx">
+            <PacmanLoader size={30} color="orange" className="loader" />
+            <p className="loader-text">Loading...</p>
+            <PacmanLoader size={30} color="green" className="loader" />
           </div>
-          :
+        ) :
+
+        (
           <ParallaxProvider>
             <NavBar />
             <ParallaxBanner>
@@ -56,8 +47,8 @@ function App() {
               <Footer />
             </ParallaxBanner>
           </ParallaxProvider>
-      }
-    </div >
+        )}
+    </div>
   );
 }
 

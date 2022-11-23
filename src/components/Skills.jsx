@@ -47,8 +47,8 @@ function Skills() {
   
     return (
       <section className="skill px-4">
-        <Canvas style={{ height: "60vh", width: "100vw", opacity: "0.6" }}>
-          <Stars />
+        <Canvas style={{ height: "45vh", width: "100vw", opacity: "1" }}>
+            <Stars count={1995} radius={80}/>
         </Canvas>
         <div className="container" id="skills">
           <div className="row">
