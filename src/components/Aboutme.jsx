@@ -17,6 +17,9 @@ function Aboutme() {
 
   return (
     <section className="aboutme px-4">
+      <Canvas style={{ height: "35vh", width: "100vw", opacity: "1" }}>
+            <Stars count={1240} radius={150} saturation={0} speed={4} depth={20} />
+      </Canvas>
       <div className="container">
         <div className="row">
           <div className="col-12">
@@ -24,7 +27,7 @@ function Aboutme() {
               {({ isVisible }) => (
                 <div
                   className={`aboutme-bx
-                      ${isVisible ? "animate__animated animate__flipInY" : "hidden"}`}
+                      ${isVisible ? "animate__animated animate__fadeIn animate__slower" : "hidden"}`}
                   id="project"
                 >
                   <h2>{t("title")}</h2>

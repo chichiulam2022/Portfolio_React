@@ -16,7 +16,7 @@ const NavBar = () => {
   //to detect if it's scrolled or not
   useEffect(() => {
     const onScroll = () => {
-      if (window.scrollY > 25) {
+      if (window.scrollY > 15) {
         setScrolled(true);
         setEmoji1 ('🧑🏽‍🚀')
         setEmoji2 ('🚀')

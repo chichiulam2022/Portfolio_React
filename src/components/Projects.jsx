@@ -23,6 +23,10 @@ import ProjectCard from "./ProjectCard";
 import { useTranslation } from "react-i18next";
 import TrackVisibility from "react-on-screen";
 
+//three.js
+import { Canvas } from '@react-three/fiber'
+import { Stars } from '@react-three/drei'
+
 function Projects() {
   const { t } = useTranslation([
     "projects",
@@ -97,6 +101,9 @@ function Projects() {
 
   return (
     <section className="project px-4">
+      <Canvas style={{ height: "35vh", width: "100vw", opacity: "1" }}>
+            <Stars count={1240} radius={150} saturation={0} speed={4} depth={20} />
+        </Canvas>
       <div className="container">
         <div className="row">
           <div className="col-12">
@@ -104,7 +111,7 @@ function Projects() {
               {({ isVisible }) => (
                 <div
                   className={`project-bx
-                      ${isVisible ? "" : "hidden"}`}
+                      ${isVisible ? "animate__animated animate__fadeIn animate__slow" : "hidden"}`}
                   id="project"
                 >
                   <h2>{t("title")}</h2>

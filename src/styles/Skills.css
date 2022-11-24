@@ -6,7 +6,8 @@
 }
 
 .skill-bx {
-    background: #300029;
+    /* background: #300029; */
+    background: rgb(66, 0, 56, 0.7);
     border-radius: 35px;
     text-align: center;
     padding: 60px 50px;
@@ -35,7 +36,7 @@
 }
 
 .hidden {
-    opacity: 0;
+    opacity: 0.5;
     transition: all 0.5s;
 }
 
