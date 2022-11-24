@@ -80,11 +80,11 @@ function Aboutme() {
               {({ isVisible }) => (
                 <div
                   className={`aboutme-bx
-                      ${isVisible ? "animate__animated animate__flipInY" : "hidden"}`}
+                      ${isVisible ? "" : "hidden"}`}
                   id="project"
                 >
                   <h2>{t("title")}</h2>
-                  <p>{t("text1")}</p>
+                  <p>{t("intro")} <br/>{t("text1")}</p>
                   <p>
                     {t("text3")}{" "}
                     <button>
