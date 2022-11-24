@@ -1,5 +1,6 @@
 .project {
-    padding: 80px 0 130px 0;
+    /* margin-top: 50px; */
+    padding: 80px 0 80px 0;
     position: relative;
     background-image: url('../assets/images/starry-night-sky.png');
     background-repeat: no-repeat;
@@ -31,6 +32,11 @@
     border-radius: 35px;
     backdrop-filter: blur(2px);
     background-color: rgba(0, 55, 117, 0.4);
+}
+
+.hidden {
+    opacity: 0.6;
+    transition: all 0.5s;
 }
 
 .project .nav.nav-pills {

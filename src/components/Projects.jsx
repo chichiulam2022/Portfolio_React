@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
+import { Row, Tab, Nav } from "react-bootstrap";
 import "../styles/Projects.css";
 
 //images
@@ -21,6 +21,7 @@ import mongodb from "../assets/images/mongodb_icon.png";
 import api from "../assets/images/api.png";
 import ProjectCard from "./ProjectCard";
 import { useTranslation } from "react-i18next";
+import TrackVisibility from "react-on-screen";
 
 function Projects() {
   const { t } = useTranslation([
@@ -95,69 +96,75 @@ function Projects() {
   ];
 
   return (
-    <section className="project px-4" id="project">
-      <Container>
-        <Row>
-          <Col size={12}>
-            <div className="project-bx">
-              <h2>{t("title")}</h2>
-              <p>{t("text1")}</p>
-              <br />
-              <p>
-                <i>
-                  <b>{t("italic")}</b>
-                </i>{" "}
-                {t("text2")}
-              </p>
-              <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                <Nav
-                  variant="pills"
-                  className="nav-pills mb-5 justify-content-center align-items-center"
-                  id="pills-tab"
+    <section className="project px-4">
+      <div className="container">
+        <div className="row">
+          <div className="col-12">
+            <TrackVisibility>
+              {({ isVisible }) => (
+                <div
+                  className={`project-bx
+                      ${isVisible ? "" : "hidden"}`}
+                  id="project"
                 >
-                  <Nav.Item>
-                    <Nav.Link eventKey="first" id="tab1">
-                      {t("title1", { ns: "tabs" })}
-                      <br />
-                      <img
-                        className="code-icon"
-                        src={frontCode}
-                        alt="frontend"
-                      />
-                      &nbsp;
-                      <img className="code-icon" src={api} alt="api" />
-                    </Nav.Link>
-                  </Nav.Item>
-                  <Nav.Item>
-                    <Nav.Link eventKey="second">
-                      {t("title2", { ns: "tabs" })}
-                      <br />
-                      <img
-                        className="code-icon"
-                        src={dataBases}
-                        alt="databases"
-                      />
-                      &nbsp;
-                      <img className="code-icon" src={mysql} alt="mysql" />
-                      <img className="code-icon" src={mongodb} alt="mongodb" />
-                    </Nav.Link>
-                  </Nav.Item>
-                  <Nav.Item>
-                    <Nav.Link eventKey="third">
-                      {t("title3", { ns: "tabs" })}
-                      <br />
-                      <img
-                        className="code-icon"
-                        src={fullStack}
-                        alt="fullstack"
-                      />
-                      &nbsp;
-                      <img className="code-icon" src={reactIcon} alt="react" />
-                    </Nav.Link>
-                  </Nav.Item>
-                </Nav>
-
-               
+                  <h2>{t("title")}</h2>
+                  <p>{t("text1")}</p>
+                  <br />
+                  <Tab.Container id="projects-tabs" defaultActiveKey="first">
+                    <Nav
+                      variant="pills"
+                      className="nav-pills mb-5 justify-content-center align-items-center"
+                      id="pills-tab"
+                    >
+                      <Nav.Item>
+                        <Nav.Link eventKey="first" id="tab1">
+                          {t("title1", { ns: "tabs" })}
+                          <br />
+                          <img
+                            className="code-icon"
+                            src={frontCode}
+                            alt="frontend"
+                          />
+                          &nbsp;
+                          <img className="code-icon" src={api} alt="api" />
+                        </Nav.Link>
+                      </Nav.Item>
+                      <Nav.Item>
+                        <Nav.Link eventKey="second">
+                          {t("title2", { ns: "tabs" })}
+                          <br />
+                          <img
+                            className="code-icon"
+                            src={dataBases}
+                            alt="databases"
+                          />
+                          &nbsp;
+                          <img className="code-icon" src={mysql} alt="mysql" />
+                          <img
+                            className="code-icon"
+                            src={mongodb}
+                            alt="mongodb"
+                          />
+                        </Nav.Link>
+                      </Nav.Item>
+                      <Nav.Item>
+                        <Nav.Link eventKey="third">
+                          {t("title3", { ns: "tabs" })}
+                          <br />
+                          <img
+                            className="code-icon"
+                            src={fullStack}
+                            alt="fullstack"
+                          />
+                          &nbsp;
+                          <img
+                            className="code-icon"
+                            src={reactIcon}
+                            alt="react"
+                          />
+                        </Nav.Link>
+                      </Nav.Item>
+                    </Nav>
                     <Tab.Content id="slideInUp">
                       {/* frontend projects */}
                       <Tab.Pane eventKey="first">
@@ -186,11 +193,13 @@ function Projects() {
                         </Row>
                       </Tab.Pane>
                     </Tab.Content>
-              </Tab.Container>
-            </div>
-          </Col>
-        </Row>
-      </Container>
+                  </Tab.Container>
+                </div>
+              )}
+            </TrackVisibility>
+          </div>
+        </div>
+      </div>
     </section>
   );
 }

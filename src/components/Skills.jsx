@@ -47,7 +47,7 @@ function Skills() {
   
     return (
       <section className="skill px-4">
-        <Canvas style={{ height: "45vh", width: "100vw", opacity: "1" }}>
+        <Canvas style={{ height: "40vh", width: "100vw", opacity: "1" }}>
             <Stars count={1240} radius={150} saturation={0} speed={4} depth={20} />
         </Canvas>
         <div className="container" id="skills">
@@ -57,7 +57,7 @@ function Skills() {
                 {({ isVisible }) => (
                   <div
                     className={`skill-bx wow zoomIn
-                      ${isVisible ? "animate__animated animate__flipInX" : ""}`}
+                      ${isVisible ? "animate__animated animate__flipInX" : "hidden"}`}
                   >
                     <h2>{t("title")}</h2>
                     <p>{t("description")}</p>
