@@ -135,7 +135,7 @@
 }
 
 .proj-text h4 {
-    font-size: 30px;
+    font-size: 1.5rem;
     font-weight: 900;
     letter-spacing: 0.8px;
     line-height: 1.5em;
@@ -146,9 +146,10 @@
 .proj-text span {
     font-style: italic;
     font-weight: 900;
-    font-size: 15px;
+    font-size: 1rem;
     letter-spacing: 0.8px;
     color: rgb(255, 255, 255);
+    padding: 0 auto 0 auto;
 }
 
 .background-image-right {

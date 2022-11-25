@@ -41,19 +41,22 @@ function Projects() {
       title: t("title_movie", { ns: "FEprojects" }),
       description: t("description_movie", { ns: "FEprojects" }),
       imgUrl: movieapp,
-      link: "https://github.com/chichiulam2022/movie_app",
+      github_link: "https://github.com/chichiulam2022/movie_app",
+      d_link: 'https://chichiulam2022.github.io/movie_app/'
     },
     {
       title: t("title_weather", { ns: "FEprojects" }),
       description: t("description_weather", { ns: "FEprojects" }),
       imgUrl: weatherapp,
-      link: "https://github.com/chichiulam2022/weather_app",
+      github_link: "https://github.com/chichiulam2022/weather_app",
+      d_link: 'https://chichiulam2022.github.io/weather_app/'
     },
     {
       title: t("title_trivia", { ns: "FEprojects" }),
       description: t("description_trivia", { ns: "FEprojects" }),
       imgUrl: trivia,
-      link: "https://github.com/chichiulam2022/trivia_quiz_app",
+      github_link: "https://github.com/chichiulam2022/trivia_quiz_app",
+      d_link: 'https://chichiulam2022.github.io/trivia_quiz_app/'
     },
   ];
 
@@ -62,19 +65,22 @@ function Projects() {
       title: t("title_employer", { ns: "BEprojects" }),
       description: t("description_employer", { ns: "BEprojects" }),
       imgUrl: employer,
-      link: "https://github.com/chichiulam2022/employer_tracker",
+      github_link: "https://github.com/chichiulam2022/employer_tracker",
+      d_link: 'https://user-images.githubusercontent.com/108379616/191663348-73981fbb-552e-4fca-8492-ea7c0fad6eae.webm'
     },
     {
       title: t("title_social", { ns: "BEprojects" }),
       description: t("description_social", { ns: "BEprojects" }),
       imgUrl: socialNetwork,
-      link: "https://github.com/chichiulam2022/Social_Network_API",
+      github_link: "https://github.com/chichiulam2022/Social_Network_API",
+      d_link: 'https://drive.google.com/file/d/1zPI3WqX-xlWicukojLooBFEiD_uVMtzu/view'
     },
     {
       title: t("title_note", { ns: "BEprojects" }),
       description: t("description_social", { ns: "BEprojects" }),
       imgUrl: noteTaker,
-      link: "https://github.com/chichiulam2022/note_taker_",
+      github_link: "https://github.com/chichiulam2022/note_taker_",
+      d_link: 'https://notetaker-chichiulam.herokuapp.com/'
     },
   ];
 
@@ -83,19 +89,22 @@ function Projects() {
       title: t("title_travel", { ns: "Fullprojects" }),
       description: t("description_travel", { ns: "Fullprojects" }),
       imgUrl: nomadTravels,
-      link: "https://github.com/chichiulam2022/travel_blog",
+      github_link: "https://github.com/chichiulam2022/travel_blog",
+      d_link: 'https://nomadtravelblog.herokuapp.com/'
     },
     {
       title: t("title_challenge", { ns: "Fullprojects" }),
       description: t("description_challenge", { ns: "Fullprojects" }),
       imgUrl: jokes,
-      link: "https://github.com/chichiulam2022/dont-laugh-challenge-Webpack_Project",
+      github_link: "https://github.com/chichiulam2022/dont-laugh-challenge-Webpack_Project",
+      d_link: 'https://dontlaughchallengehaha.netlify.app/'
     },
     {
       title: t("title_poke", { ns: "Fullprojects" }),
       description: t("description_poke", { ns: "Fullprojects" }),
       imgUrl: pokemon,
-      link: "https://github.com/chichiulam2022/Pokedex_React.js",
+      github_link: "https://github.com/chichiulam2022/Pokedex_React.js",
+      d_link: 'https://pokedexapireactapp.netlify.app'
     },
   ];
 

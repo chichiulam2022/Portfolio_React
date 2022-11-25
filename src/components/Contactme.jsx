@@ -21,13 +21,14 @@ function Contactme() {
     
     validationSchema: Yup.object({
       first_name: Yup.string()
+        .max(20, "Name must be 20 characters")
         .required("Name is required"),
       last_name: Yup.string()
+        .max(20, "Name must be 20 characters")
         .required("Name is required"),
       email: Yup.string()
         .email("Invalid email address")
-        .required("Email is required"),
-      terms: Yup.array().required("Terms of service must be checked"),
+        .required("Email is required")
     }),
 
     onSubmit: (values) => {
@@ -37,6 +38,7 @@ function Contactme() {
     },
   });
 
+  console.log(formik.errors);
 
   return (
     <section className="contact px-4" id="connect">

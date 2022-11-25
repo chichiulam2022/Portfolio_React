@@ -20,7 +20,7 @@ function Hero() {
               <div className={isVisible ? "animate__animated animate__fadeInLeft animate__slow" : ''}>
                 <span className="tagline">{t('welcome')} 😊</span>
                 <h1>{t('pronoun')} <span className='namespan'>{t('name')}</span>.<br/>
-                {t('single_pronoun')} <span className="typewriter-text">
+                {t('single_pronoun')} <code className="typewriter-text">
                 <Typewriter
                 words={[t('animatedText1'), t('animatedText2'), t('animatedText3')]} 
                 loop={false}
@@ -30,7 +30,7 @@ function Hero() {
                 deleteSpeed={140}
                 delaySpeed={1200}
                 />
-                </span>
+                </code>
                 </h1>
                 <br/>
                   <h5>{t('detailText')}</h5>
