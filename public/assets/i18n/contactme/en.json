@@ -5,5 +5,8 @@
     "email": "Email",
     "phone": "Phone Number",
     "message": "Message",
-    "submit": "Submit"
+    "submit": "Submit",
+    "sending": "Sending...",
+    "good_status": "Your message was sent successfully",
+    "bad_status": "Something wrong, please try again"
 }

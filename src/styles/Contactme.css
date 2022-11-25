@@ -75,6 +75,15 @@
     width: 100%;
 }
 
+p.success {
+    color: green;
+}
+
+p.danger {
+    color: red;
+}
+
+
 @keyframes flying {
 
     0% {

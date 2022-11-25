@@ -5,5 +5,8 @@
     "email": "Courriel",
     "phone": "Numéro de téléphone",
     "message": "Message",
-    "submit": "Soumettre"
+    "submit": "Soumettre",
+    "sending": "Envoi en cours...",
+    "good_status": "Votre message a été envoyé avec succès.",
+    "bad_status": "Envoi sans succès, veuillez réessayer."
 }

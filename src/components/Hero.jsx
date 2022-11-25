@@ -8,7 +8,6 @@ import "../styles/Hero.css"
 import {useTranslation} from 'react-i18next'
 
 
-
 function Hero() {
   const {t} = useTranslation(['hero'])
   return (

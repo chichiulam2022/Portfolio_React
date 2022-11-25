@@ -10,9 +10,9 @@ nav.navbar {
     width: 100%;
     top: 0;
     z-index: 9999;
-    transition: 0.32s ease-in-out;
-    background-color: rgba(1, 11, 75, 0.8);
-    padding: 9px 0px;
+    transition: 0.5s ease-in-out;
+    background-color: rgba(1, 11, 75, 0.4);
+    padding: 5px 0px;
     margin: auto;
 }
 
@@ -23,7 +23,7 @@ div.container {
 
 nav.navbar.scrolled {
     padding: 0px 0;
-    background-color: #380952;
+    background-color: rgb(56, 9, 82, 0.42);
     opacity: 0.95;
 }
 

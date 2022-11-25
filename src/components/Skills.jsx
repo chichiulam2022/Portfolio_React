@@ -59,7 +59,11 @@ function Skills() {
                     className={`skill-bx wow zoomIn
                       ${isVisible ? "animate__animated animate__flipInX animate__slow" : "hidden"}`}
                   >
-                    <h2>{t("title")}</h2>
+                  
+                      <h2>{t("title")}</h2>
+                  
+               
+                    
                     <p>{t("description")}</p>
                     <Carousel
                       responsive={responsive}

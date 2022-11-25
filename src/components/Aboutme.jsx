@@ -20,7 +20,7 @@ function Aboutme() {
       <Canvas style={{ height: "35vh", width: "100vw", opacity: "1" }}>
             <Stars count={1240} radius={150} saturation={0} speed={4} depth={20} />
       </Canvas>
-      <div className="container">
+      <div className="container" id="aboutme">
         <div className="row">
           <div className="col-12">
             <TrackVisibility>
@@ -28,7 +28,6 @@ function Aboutme() {
                 <div
                   className={`aboutme-bx
                       ${isVisible ? "animate__animated animate__fadeIn animate__slower" : "hidden"}`}
-                  id="project"
                 >
                   <h2>{t("title")}</h2>
                   <p>{t("intro")} <br/>{t("text1")}</p>
