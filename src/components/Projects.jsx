@@ -116,11 +116,11 @@ function Projects() {
       <div className="container">
         <div className="row">
           <div className="col-12">
-            <TrackVisibility>
+            <TrackVisibility once>
               {({ isVisible }) => (
                 <div
                   className={`project-bx
-                      ${isVisible ? "animate__animated animate__fadeIn animate__slow" : "hidden"}`}
+                      ${isVisible ? "animate__animated animate__flipInY animate__slow" : "hidden"}`}
                   id="project"
                 >
                   <h2>{t("title")}</h2>

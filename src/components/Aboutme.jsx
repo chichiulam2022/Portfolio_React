@@ -23,7 +23,7 @@ function Aboutme() {
       <div className="container" id="aboutme">
         <div className="row">
           <div className="col-12">
-            <TrackVisibility>
+            <TrackVisibility once>
               {({ isVisible }) => (
                 <div
                   className={`aboutme-bx

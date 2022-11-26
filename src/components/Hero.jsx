@@ -15,7 +15,7 @@ function Hero() {
       <Container>
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
-            <TrackVisibility>
+            <TrackVisibility once>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeInLeft animate__slow" : ''}>
                 <span className="tagline">{t('welcome')} 😊</span>

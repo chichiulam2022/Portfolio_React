@@ -53,7 +53,7 @@ function Skills() {
         <div className="container" id="skills">
           <div className="row">
             <div className="col-12">
-              <TrackVisibility>
+              <TrackVisibility once>
                 {({ isVisible }) => (
                   <div
                     className={`skill-bx wow zoomIn
