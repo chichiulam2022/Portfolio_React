@@ -16,14 +16,14 @@ function App() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 3100);
+    }, 2000);
   }, []);
 
   return (
     <div className="App">
       {loading ?
         (
-          <div className="loader-bx">
+          <div className='loader-bx'>
             <PacmanLoader size={30} color="orange" className="loader" />
             <p className="loader-text">Loading...</p>
             <PacmanLoader size={30} color="green" className="loader" />
