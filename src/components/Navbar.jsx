@@ -68,7 +68,7 @@ const NavBar = () => {
               }
               onClick={() => onUpdateActiveLink("home")}
             >
-              <p>{t("home")}</p>
+              {t("home")}
             </Nav.Link>
             <Nav.Link
               href="#skills"
@@ -77,7 +77,7 @@ const NavBar = () => {
               }
               onClick={() => onUpdateActiveLink("skills")}
             >
-              <p>{t("skills")}</p>
+              {t("skills")}
             </Nav.Link>
             <Nav.Link
               href="#project"
@@ -86,7 +86,7 @@ const NavBar = () => {
               }
               onClick={() => onUpdateActiveLink("projects")}
             >
-              <p>{t("projects")}</p>
+              {t("projects")}
             </Nav.Link>
             <Nav.Link
               href="#aboutme"
@@ -95,7 +95,7 @@ const NavBar = () => {
               }
               onClick={() => onUpdateActiveLink("aboutme")}
             >
-              <p>{t("aboutme")}</p>
+              {t("aboutme")}
             </Nav.Link>
           
 
