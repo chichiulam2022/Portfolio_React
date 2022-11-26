@@ -23,14 +23,14 @@ function Aboutme() {
       <div className="container" id="aboutme">
         <div className="row">
           <div className="col-12">
-            <TrackVisibility once>
+            <TrackVisibility once offset={160}>
               {({ isVisible }) => (
                 <div
                   className={`aboutme-bx
                       ${isVisible ? "animate__animated animate__fadeIn animate__slower" : "hidden"}`}
                 >
                   <h2>{t("title")}</h2>
-                  <p>{t("intro")} <br/>{t("text1")}</p>
+                  <p>{t("intro")} <br/><br/>{t("text1")}</p>
                   <p>
                     {t("text3")}{" "}
                     <button>

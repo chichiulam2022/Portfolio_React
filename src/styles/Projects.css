@@ -165,3 +165,7 @@
     max-width: 1.5rem;
     margin-top: 5px;
 }
+
+.github_icon {
+    display: block;
+}

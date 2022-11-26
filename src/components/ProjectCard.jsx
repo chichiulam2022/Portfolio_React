@@ -14,7 +14,7 @@ function ProjectCard({ title, description, imgUrl, github_link, d_link }) {
             <span>{description}</span>
             <br/><br/>
             <a href={github_link}>
-              <h2 style={{display:"block"}}><SiGithub/></h2>
+              <h2 className="github_icon" style={{color:'#8A2BE2'}}><SiGithub/></h2>
             </a>
           </div>
      

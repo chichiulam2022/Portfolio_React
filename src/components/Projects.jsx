@@ -1,6 +1,7 @@
 import React from "react";
 import { Row, Tab, Nav } from "react-bootstrap";
 import "../styles/Projects.css";
+import {SiGithub} from 'react-icons/si'
 
 //images
 import movieapp from "../assets/images/movieapp.gif";
@@ -116,16 +117,16 @@ function Projects() {
       <div className="container">
         <div className="row">
           <div className="col-12">
-            <TrackVisibility once>
+            <TrackVisibility once offset={160}>
               {({ isVisible }) => (
                 <div
                   className={`project-bx
-                      ${isVisible ? "animate__animated animate__flipInY animate__slow" : "hidden"}`}
+                      ${isVisible ? "animate__animated animate__flipIn animate__slow" : "hidden"}`}
                   id="project"
                 >
                   <h2>{t("title")}</h2>
-                  <p>{t("text1")}</p>
-                  <br />
+                  <p>{t("text1")}<h4 style={{display: 'inline', color:'#8A2BE2'}}><SiGithub/></h4> .</p>
+                  <p><i style={{fontWeight: '900', color: 'orange'}}>{t("italic")}</i>{t("text2")}</p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav
                       variant="pills"
