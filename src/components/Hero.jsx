@@ -25,7 +25,6 @@ function Hero() {
                 words={[t('animatedText1'), t('animatedText2'), t('animatedText3')]} 
                 loop={false}
                 cursor
-                cursorStyle='|'
                 typeSpeed={100}
                 deleteSpeed={140}
                 delaySpeed={1200}
