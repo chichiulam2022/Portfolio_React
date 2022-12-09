@@ -1,8 +1,8 @@
 {
     "title_travel": "NoMadTravels",
-    "title_challenge": "Essaie de ne pas rire",
+    "title_challenge": "TRAVÔTEL",
     "title_poke": "Pokedex",
     "description_travel": "Un blogue de voyage auquel on se connecte pour lire et rédiger des nouveaux articles de voyage, et mettre des images",
-    "description_challenge": "Une appli PWA webpack qui utilise l'API \"icanhazdadjoke\" pour générer au hasard des blagues en anglais.",
+    "description_challenge": "Une appli MERN de réservation hôtelière biligue qui permet des utilisateurs à rechercher des hôtels dans les grandes villes",
     "description_poke": "Un jeu simple de Pokémon écrit en React avec PokéAPI."
 }

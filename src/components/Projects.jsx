@@ -11,8 +11,8 @@ import socialNetwork from "../assets/images/social_network.gif";
 import employer from "../assets/images/employer.gif";
 import noteTaker from "../assets/images/note_taker.gif";
 import nomadTravels from "../assets/images/nomad_travels.gif";
-import jokes from "../assets/images/jokes.gif";
 import pokemon from "../assets/images/pokemon.gif";
+import travotel from '../assets/images/travotel.gif'
 import frontCode from "../assets/images/front-code.png";
 import dataBases from "../assets/images/databases.png";
 import fullStack from "../assets/images/fullstack.png";
@@ -96,9 +96,9 @@ function Projects() {
     {
       title: t("title_challenge", { ns: "Fullprojects" }),
       description: t("description_challenge", { ns: "Fullprojects" }),
-      imgUrl: jokes,
-      github_link: "https://github.com/chichiulam2022/dont-laugh-challenge-Webpack_Project",
-      d_link: 'https://dontlaughchallengehaha.netlify.app/'
+      imgUrl: travotel,
+      github_link: "https://github.com/chichiulam2022/hotel_booking",
+      d_link: 'https://bilingualhotelbooking.herokuapp.com/'
     },
     {
       title: t("title_poke", { ns: "Fullprojects" }),
@@ -126,7 +126,10 @@ function Projects() {
                 >
                   <h2>{t("title")}</h2>
                   <p>{t("text1")}<h4 style={{display: 'inline', color:'#8A2BE2'}}><SiGithub/></h4> .</p>
-                  <p><i style={{fontWeight: '900', color: 'orange'}}>{t("italic")}</i>{t("text2")}</p>
+                  <p><i style={{fontWeight: '900', color: 'orange'}}>
+                    {t("italic")}</i>&nbsp;&nbsp;&&nbsp;
+                    <i style={{fontWeight: '900', color: 'orange'}}>{t("italic2")}</i>
+                    {t("text2")}</p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav
                       variant="pills"
