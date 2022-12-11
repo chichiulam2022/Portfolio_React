@@ -39,7 +39,6 @@ Create React App source code: <br>
 <br>
 English Version:<br>
 <img width="650" alt="Screenshot 2022-12-11 at 7 26 46 AM" src="https://user-images.githubusercontent.com/108379616/206909111-9a48704e-f8b7-43e0-9888-1688f6c25bbf.png">
-
 <br>
 Version française:<br>
 <img width="650" alt="Screenshot 2022-12-11 at 7 26 53 AM" src="https://user-images.githubusercontent.com/108379616/206909116-c6a31183-b632-47f7-8019-3079117387ba.png">
