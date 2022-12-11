@@ -38,10 +38,12 @@ Create React App source code: <br>
 <img width="650" alt="Screenshot 2022-11-17 at 11 05 55 AM" src="https://user-images.githubusercontent.com/108379616/202576934-c643c7f3-7e98-40d5-a8e3-16b37ecb26b5.png"><br>
 <br>
 English Version:<br>
-<img width="650" alt="Screenshot 2022-11-17 at 5 51 22 PM" src="https://user-images.githubusercontent.com/108379616/202577150-3a84227c-817f-4808-a2c4-16d47960b4ad.png"><br>
+<img width="650" alt="Screenshot 2022-12-11 at 7 26 46 AM" src="https://user-images.githubusercontent.com/108379616/206909111-9a48704e-f8b7-43e0-9888-1688f6c25bbf.png">
+
 <br>
 Version française:<br>
-<img width="650" alt="Screenshot 2022-11-17 at 5 55 07 PM" src="https://user-images.githubusercontent.com/108379616/202577634-5c5691cb-2dbe-4616-871d-4a1b8acc3b98.png">
+<img width="650" alt="Screenshot 2022-12-11 at 7 26 53 AM" src="https://user-images.githubusercontent.com/108379616/206909116-c6a31183-b632-47f7-8019-3079117387ba.png">
+
 
 ## Technologies
 Besides Create React App, this project was created with the following NPMs, here are the examples:
