@@ -25,7 +25,7 @@ function App() {
         (
           <div className='loader-bx'>
             <PacmanLoader size={30} color="orange" className="loader" />
-            <p className="loader-text">Loading...</p>
+            <p className="loader-text">Loading/Télécharger...</p>
             <PacmanLoader size={30} color="green" className="loader" />
           </div>
         ) :
