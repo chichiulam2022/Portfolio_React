@@ -98,7 +98,7 @@ function Projects() {
       description: t("description_challenge", { ns: "Fullprojects" }),
       imgUrl: travotel,
       github_link: "https://github.com/chichiulam2022/hotel_booking",
-      d_link: 'https://bilingualhotelbooking.herokuapp.com/'
+      d_link: 'https://travotel.herokuapp.com/'
     },
     {
       title: t("title_poke", { ns: "Fullprojects" }),

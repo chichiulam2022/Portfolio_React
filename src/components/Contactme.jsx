@@ -31,11 +31,11 @@ function Contactme() {
         .required("Email is required")
     }),
 
-    onSubmit: (values) => {
-      console.log("form submitted");
-      console.log(values);
-      // router.push({ pathname: "/success", query: values });
-    },
+    // onSubmit: (values) => {
+    //   console.log("form submitted");
+    //   console.log(values);
+    //   // router.push({ pathname: "/success", query: values });
+    // },
   });
 
   console.log(formik.errors);
